@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";AAUA,8DAA+D;ECC7D,UAAU,EAAE,UAAU;;;;ADIxB,cAAe;ECEb,KAAK,EAAE,CAAC;;;AACR,2CACQ;EACN,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,EAAE;EACX,WAAW,EAAE,CAAC;;;AAEhB,oBAAQ;EACN,KAAK,EAAE,IAAI;;;;ADLf,eAAgB;ECTd,UAAU,EAAE,UAAU;EC4GtB,MAAM,EAAE,CAAC;EAJT,OAAO,EAAE,CAAC;EAnDV,kBAAkB,EAAE,IAAI;EACxB,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI",
-"sources": ["Fabric.Utilities.Output.scss","_Fabric.Utilities.scss","_Fabric.Mixins.scss"],
-"names": [],
-"file": "Fabric.Utilities.Output.css"
-}

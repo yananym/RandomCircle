@@ -9,7 +9,8 @@
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/fabric/Fabric.css">
+  <link rel="stylesheet" href="http://appsforoffice.microsoft.com/fabric/2.1.0/fabric.min.css">
+  <link rel="stylesheet" href="http://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.min.css">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,13 +22,24 @@
 	<div class="ms-Grid-row full-Page-row">
 	    <div class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg2 ms-u-slideRightIn40 aside-col ms-bgColor-blue">
 	    	<h2 class="ms-font-xl ms-fontColor-white">Circle controls</h2>
-	    	<h3 class="ms-font-l ms-fontColor-white">Size range</h3>
-	    	<input id="circleSize" type="range">
-	    	<h3 class="ms-font-l ms-fontColor-white">Number of circles</h3>
-	    	<input id="circleNumber" type="range">
+	    	<h3 id="circleSizeTitle" class="ms-font-l ms-fontColor-white">Size range <span class="rangeValue"></span></h3>
+	    	<input id="circleSize" max="200" type="range">
+	    	<h3 id="circleNumberTitle" class="ms-font-l ms-fontColor-white">Circle count <span class="rangeValue"></span></h3>
+	    	<input id="circleNumber" max="200" type="range">
+	    	<div class="ms-Toggle">
+		    	<span class="ms-Toggle-description">Random style</span> 
+		    	<input type="checkbox" id="toggleRandom" class="ms-Toggle-input" checked> 
+		    	<label for="toggleRandom" class="ms-Toggle-field"> 
+			    	<span class="ms-Label ms-Label--off">Off</span> 
+			    	<span class="ms-Label ms-Label--on">On</span> 
+		    	</label>
+	    	</div>
+	    	<div id="planetList" class="planetList">
+
+	    	</div>
 	    </div>
 	    <div class="ms-Grid-col ms-u-sm6 ms-u-md8 ms-u-lg10 main-col">
-    		<h1 class="ms-font-su ms-fontColor-themeDark">Circle animation page</h1>
+    		<h1 class="ms-font-su ms-fontColor-themeDark">Circle animation page <span><i class="ms-Icon ms-Icon--refresh"></i></span></h1>
 	    	<div class="stage-row" id="stage">
 	    		<button id="generate" class="ms-Button ms-Button--primary"> 
 		    		<span class="ms-Button-icon">
