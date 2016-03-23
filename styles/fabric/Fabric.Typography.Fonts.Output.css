@@ -1,0 +1,191 @@
+/*
+  Your use of the content in the files referenced here are subject to the terms of the license at http://aka.ms/fabric-font-license
+*/
+@font-face {
+  font-family: "Leelawadee UI Bold";
+  src: url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.eot?#iefix") format("embedded-opentype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.ttf") format("truetype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold#LeelawadeeUI-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Leelawadee UI";
+  src: url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.eot?#iefix") format("embedded-opentype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.ttf") format("truetype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular#LeelawadeeUI-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Leelawadee UI Semilight";
+  src: url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.eot?#iefix") format("embedded-opentype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.ttf") format("truetype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight#LeelawadeeUI-Semilight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Arabic";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Arabic";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Arabic";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Arabic";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Cyrillic";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Cyrillic";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Cyrillic";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Cyrillic";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light EastEuropean";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular EastEuropean";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold EastEuropean";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight EastEuropean";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Greek";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Greek";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Greek";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Greek";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Hebrew";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Hebrew";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Hebrew";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Hebrew";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Vietnamese";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Vietnamese";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Vietnamese";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Vietnamese";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light WestEuropean";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular WestEuropean";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold WestEuropean";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight WestEuropean";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=Fabric.Typography.Fonts.Output.css.map */

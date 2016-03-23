@@ -1,0 +1,1571 @@
+@media (max-width: 479px) {
+  /* line 16, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenSm,
+  .ms-u-hiddenMdDown,
+  .ms-u-hiddenLgDown,
+  .ms-u-hiddenXlDown,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 639px) {
+  /* line 27, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMd,
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenMdDown,
+  .ms-u-hiddenLgDown,
+  .ms-u-hiddenXlDown,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  /* line 39, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenLg,
+  .ms-u-hiddenLgUp,
+  .ms-u-hiddenLgDown,
+  .ms-u-hiddenXlDown,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  /* line 51, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenLgUp,
+  .ms-u-hiddenXl,
+  .ms-u-hiddenXlUp,
+  .ms-u-hiddenXlDown,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1919px) {
+  /* line 63, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenLgUp,
+  .ms-u-hiddenXlUp,
+  .ms-u-hiddenXxl,
+  .ms-u-hiddenXxlUp,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 1920px) {
+  /* line 75, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenLgUp,
+  .ms-u-hiddenXlUp,
+  .ms-u-hiddenXxlUp,
+  .ms-u-hiddenXxxl {
+    display: none !important;
+  }
+}
+/* line 91, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm12 {
+  width: 100%;
+}
+
+/* line 94, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm11 {
+  width: 91.66666666666666%;
+}
+
+/* line 97, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm10 {
+  width: 83.33333333333334%;
+}
+
+/* line 100, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm9 {
+  width: 75%;
+}
+
+/* line 103, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm8 {
+  width: 66.66666666666666%;
+}
+
+/* line 106, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm7 {
+  width: 58.333333333333336%;
+}
+
+/* line 109, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm6 {
+  width: 50%;
+}
+
+/* line 112, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm5 {
+  width: 41.66666666666667%;
+}
+
+/* line 115, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm4 {
+  width: 33.33333333333333%;
+}
+
+/* line 118, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm3 {
+  width: 25%;
+}
+
+/* line 121, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm2 {
+  width: 16.666666666666664%;
+}
+
+/* line 124, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm1 {
+  width: 8.333333333333332%;
+}
+
+/* line 127, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull12 {
+  right: 100%;
+}
+
+/* line 130, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull11 {
+  right: 91.66666666666666%;
+}
+
+/* line 133, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull10 {
+  right: 83.33333333333334%;
+}
+
+/* line 136, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull9 {
+  right: 75%;
+}
+
+/* line 139, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull8 {
+  right: 66.66666666666666%;
+}
+
+/* line 142, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull7 {
+  right: 58.333333333333336%;
+}
+
+/* line 145, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull6 {
+  right: 50%;
+}
+
+/* line 148, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull5 {
+  right: 41.66666666666667%;
+}
+
+/* line 151, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull4 {
+  right: 33.33333333333333%;
+}
+
+/* line 154, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull3 {
+  right: 25%;
+}
+
+/* line 157, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull2 {
+  right: 16.666666666666664%;
+}
+
+/* line 160, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull1 {
+  right: 8.333333333333332%;
+}
+
+/* line 163, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull0 {
+  right: auto;
+}
+
+/* line 166, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush12 {
+  left: 100%;
+}
+
+/* line 169, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush11 {
+  left: 91.66666666666666%;
+}
+
+/* line 172, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush10 {
+  left: 83.33333333333334%;
+}
+
+/* line 175, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush9 {
+  left: 75%;
+}
+
+/* line 178, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush8 {
+  left: 66.66666666666666%;
+}
+
+/* line 181, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush7 {
+  left: 58.333333333333336%;
+}
+
+/* line 184, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush6 {
+  left: 50%;
+}
+
+/* line 187, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush5 {
+  left: 41.66666666666667%;
+}
+
+/* line 190, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush4 {
+  left: 33.33333333333333%;
+}
+
+/* line 193, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush3 {
+  left: 25%;
+}
+
+/* line 196, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush2 {
+  left: 16.666666666666664%;
+}
+
+/* line 199, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush1 {
+  left: 8.333333333333332%;
+}
+
+/* line 202, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush0 {
+  left: auto;
+}
+
+/* line 207, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset11 {
+  margin-left: 91.66666666666666%;
+}
+
+/* line 210, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset10 {
+  margin-left: 83.33333333333334%;
+}
+
+/* line 213, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset9 {
+  margin-left: 75%;
+}
+
+/* line 216, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset8 {
+  margin-left: 66.66666666666666%;
+}
+
+/* line 219, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset7 {
+  margin-left: 58.333333333333336%;
+}
+
+/* line 222, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset6 {
+  margin-left: 50%;
+}
+
+/* line 225, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset5 {
+  margin-left: 41.66666666666667%;
+}
+
+/* line 228, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset4 {
+  margin-left: 33.33333333333333%;
+}
+
+/* line 231, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset3 {
+  margin-left: 25%;
+}
+
+/* line 234, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset2 {
+  margin-left: 16.666666666666664%;
+}
+
+/* line 237, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset1 {
+  margin-left: 8.333333333333332%;
+}
+
+/* line 240, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset0 {
+  margin-left: 0;
+}
+
+@media (min-width: 480px) {
+  /* line 246, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md12 {
+    width: 100%;
+  }
+
+  /* line 249, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 252, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 255, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md9 {
+    width: 75%;
+  }
+
+  /* line 258, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 261, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 264, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md6 {
+    width: 50%;
+  }
+
+  /* line 267, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 270, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 273, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md3 {
+    width: 25%;
+  }
+
+  /* line 276, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 279, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 282, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull12 {
+    right: 100%;
+  }
+
+  /* line 285, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 288, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 291, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull9 {
+    right: 75%;
+  }
+
+  /* line 294, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 297, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 300, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull6 {
+    right: 50%;
+  }
+
+  /* line 303, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 306, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 309, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull3 {
+    right: 25%;
+  }
+
+  /* line 312, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 315, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 318, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull0 {
+    right: auto;
+  }
+
+  /* line 321, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush12 {
+    left: 100%;
+  }
+
+  /* line 324, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 327, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 330, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush9 {
+    left: 75%;
+  }
+
+  /* line 333, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 336, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 339, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush6 {
+    left: 50%;
+  }
+
+  /* line 342, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 345, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 348, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush3 {
+    left: 25%;
+  }
+
+  /* line 351, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 354, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 357, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush0 {
+    left: auto;
+  }
+
+  /* line 362, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 365, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 368, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 371, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 374, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 377, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 380, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 383, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 386, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 389, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 392, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 395, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 640px) {
+  /* line 402, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg12 {
+    width: 100%;
+  }
+
+  /* line 405, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 408, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 411, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg9 {
+    width: 75%;
+  }
+
+  /* line 414, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 417, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 420, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg6 {
+    width: 50%;
+  }
+
+  /* line 423, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 426, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 429, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg3 {
+    width: 25%;
+  }
+
+  /* line 432, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 435, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 438, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull12 {
+    right: 100%;
+  }
+
+  /* line 441, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 444, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 447, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull9 {
+    right: 75%;
+  }
+
+  /* line 450, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 453, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 456, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull6 {
+    right: 50%;
+  }
+
+  /* line 459, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 462, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 465, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull3 {
+    right: 25%;
+  }
+
+  /* line 468, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 471, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 474, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull0 {
+    right: auto;
+  }
+
+  /* line 477, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush12 {
+    left: 100%;
+  }
+
+  /* line 480, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 483, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 486, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush9 {
+    left: 75%;
+  }
+
+  /* line 489, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 492, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 495, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush6 {
+    left: 50%;
+  }
+
+  /* line 498, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 501, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 504, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush3 {
+    left: 25%;
+  }
+
+  /* line 507, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 510, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 513, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush0 {
+    left: auto;
+  }
+
+  /* line 518, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 521, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 524, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 527, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 530, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 533, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 536, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 539, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 542, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 545, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 548, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 551, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 558, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl12 {
+    width: 100%;
+  }
+
+  /* line 561, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 564, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 567, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl9 {
+    width: 75%;
+  }
+
+  /* line 570, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 573, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 576, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl6 {
+    width: 50%;
+  }
+
+  /* line 579, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 582, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 585, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl3 {
+    width: 25%;
+  }
+
+  /* line 588, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 591, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 594, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull12 {
+    right: 100%;
+  }
+
+  /* line 597, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 600, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 603, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull9 {
+    right: 75%;
+  }
+
+  /* line 606, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 609, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 612, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull6 {
+    right: 50%;
+  }
+
+  /* line 615, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 618, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 621, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull3 {
+    right: 25%;
+  }
+
+  /* line 624, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 627, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 630, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull0 {
+    right: auto;
+  }
+
+  /* line 633, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush12 {
+    left: 100%;
+  }
+
+  /* line 636, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 639, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 642, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush9 {
+    left: 75%;
+  }
+
+  /* line 645, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 648, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 651, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush6 {
+    left: 50%;
+  }
+
+  /* line 654, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 657, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 660, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush3 {
+    left: 25%;
+  }
+
+  /* line 663, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 666, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 669, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush0 {
+    left: auto;
+  }
+
+  /* line 674, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 677, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 680, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 683, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 686, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 689, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 692, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 695, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 698, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 701, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 704, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 707, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1366px) {
+  /* line 714, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl12 {
+    width: 100%;
+  }
+
+  /* line 717, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 720, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 723, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl9 {
+    width: 75%;
+  }
+
+  /* line 726, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 729, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 732, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl6 {
+    width: 50%;
+  }
+
+  /* line 735, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 738, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 741, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl3 {
+    width: 25%;
+  }
+
+  /* line 744, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 747, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 750, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull12 {
+    right: 100%;
+  }
+
+  /* line 753, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 756, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 759, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull9 {
+    right: 75%;
+  }
+
+  /* line 762, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 765, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 768, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull6 {
+    right: 50%;
+  }
+
+  /* line 771, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 774, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 777, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull3 {
+    right: 25%;
+  }
+
+  /* line 780, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 783, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 786, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull0 {
+    right: auto;
+  }
+
+  /* line 789, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush12 {
+    left: 100%;
+  }
+
+  /* line 792, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 795, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 798, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush9 {
+    left: 75%;
+  }
+
+  /* line 801, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 804, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 807, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush6 {
+    left: 50%;
+  }
+
+  /* line 810, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 813, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 816, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush3 {
+    left: 25%;
+  }
+
+  /* line 819, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 822, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 825, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush0 {
+    left: auto;
+  }
+
+  /* line 830, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 833, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 836, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 839, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 842, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 845, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 848, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 851, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 854, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 857, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 860, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 863, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1920px) {
+  /* line 870, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl12 {
+    width: 100%;
+  }
+
+  /* line 873, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 876, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 879, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl9 {
+    width: 75%;
+  }
+
+  /* line 882, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 885, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 888, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl6 {
+    width: 50%;
+  }
+
+  /* line 891, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 894, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 897, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl3 {
+    width: 25%;
+  }
+
+  /* line 900, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 903, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 906, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull12 {
+    right: 100%;
+  }
+
+  /* line 909, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 912, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 915, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull9 {
+    right: 75%;
+  }
+
+  /* line 918, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 921, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 924, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull6 {
+    right: 50%;
+  }
+
+  /* line 927, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 930, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 933, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull3 {
+    right: 25%;
+  }
+
+  /* line 936, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 939, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 942, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull0 {
+    right: auto;
+  }
+
+  /* line 945, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush12 {
+    left: 100%;
+  }
+
+  /* line 948, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 951, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 954, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush9 {
+    left: 75%;
+  }
+
+  /* line 957, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 960, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 963, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush6 {
+    left: 50%;
+  }
+
+  /* line 966, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 969, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 972, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush3 {
+    left: 25%;
+  }
+
+  /* line 975, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 978, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 981, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush0 {
+    left: auto;
+  }
+
+  /* line 986, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 989, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 992, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 995, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 998, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 1001, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 1004, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 1007, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 1010, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 1013, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 1016, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 1019, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset0 {
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=Fabric.Responsive.Utilities.Output.css.map */

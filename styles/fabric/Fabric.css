@@ -1,0 +1,6932 @@
+/* line 11, Fabric.Utilities.Output.scss */
+.ms-u-borderBox, .ms-u-borderBox:before, .ms-u-borderBox:after {
+  box-sizing: border-box;
+}
+
+/* line 16, Fabric.Utilities.Output.scss */
+.ms-u-clearfix {
+  *zoom: 1;
+}
+/* line 19, _Fabric.Utilities.scss */
+.ms-u-clearfix:before, .ms-u-clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 25, _Fabric.Utilities.scss */
+.ms-u-clearfix:after {
+  clear: both;
+}
+
+/* line 21, Fabric.Utilities.Output.scss */
+.ms-u-normalize {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* line 13, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themeDark,
+.ms-bgColor-themeDark--hover:hover {
+  background-color: #005a9e;
+}
+
+/* line 18, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themeDarkAlt,
+.ms-bgColor-themeDarkAlt--hover:hover {
+  background-color: #106ebe;
+}
+
+/* line 23, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themeDarker,
+.ms-bgColor-themeDarker--hover:hover {
+  background-color: #004578;
+}
+
+/* line 28, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themePrimary,
+.ms-bgColor-themePrimary--hover:hover {
+  background-color: #0078d7;
+}
+
+/* line 33, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themeSecondary,
+.ms-bgColor-themeSecondary--hover:hover {
+  background-color: #2488d8;
+}
+
+/* line 38, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themeTertiary,
+.ms-bgColor-themeTertiary--hover:hover {
+  background-color: #69afe5;
+}
+
+/* line 43, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themeLight,
+.ms-bgColor-themeLight--hover:hover {
+  background-color: #b3d6f2;
+}
+
+/* line 48, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themeLighter,
+.ms-bgColor-themeLighter--hover:hover {
+  background-color: #deecf9;
+}
+
+/* line 53, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-themeLighterAlt,
+.ms-bgColor-themeLighterAlt--hover:hover {
+  background-color: #eff6fc;
+}
+
+/* line 59, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-black,
+.ms-bgColor-black--hover:hover {
+  background-color: #000000;
+}
+
+/* line 64, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralDark,
+.ms-bgColor-neutralDark--hover:hover {
+  background-color: #212121;
+}
+
+/* line 69, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralPrimary,
+.ms-bgColor-neutralPrimary--hover:hover {
+  background-color: #333333;
+}
+
+/* line 74, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralSecondary,
+.ms-bgColor-neutralSecondary--hover:hover {
+  background-color: #666666;
+}
+
+/* line 79, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralSecondaryAlt,
+.ms-bgColor-neutralSecondaryAlt--hover:hover {
+  background-color: #767676;
+}
+
+/* line 84, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralTertiary,
+.ms-bgColor-neutralTertiary--hover:hover {
+  background-color: #a6a6a6;
+}
+
+/* line 89, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralTertiaryAlt,
+.ms-bgColor-neutralTertiaryAlt--hover:hover {
+  background-color: #c8c8c8;
+}
+
+/* line 94, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralLight,
+.ms-bgColor-neutralLight--hover:hover {
+  background-color: #eaeaea;
+}
+
+/* line 99, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralLighter,
+.ms-bgColor-neutralLighter--hover:hover {
+  background-color: #f4f4f4;
+}
+
+/* line 104, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-neutralLighterAlt,
+.ms-bgColor-neutralLighterAlt--hover:hover {
+  background-color: #f8f8f8;
+}
+
+/* line 109, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-white,
+.ms-bgColor-white--hover:hover {
+  background-color: #ffffff;
+}
+
+/* line 116, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-yellow {
+  background-color: #ffb900;
+}
+
+/* line 120, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-yellowLight {
+  background-color: #fff100;
+}
+
+/* line 124, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-orange {
+  background-color: #d83b01;
+}
+
+/* line 128, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-orangeLight {
+  background-color: #ea4300;
+}
+
+/* line 132, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-orangeLighter {
+  background-color: #ff8c00;
+}
+
+/* line 136, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-redDark {
+  background-color: #a80000;
+}
+
+/* line 140, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-red {
+  background-color: #e81123;
+}
+
+/* line 144, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-magentaDark {
+  background-color: #5c005c;
+}
+
+/* line 148, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-magenta {
+  background-color: #b4009e;
+}
+
+/* line 152, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-magentaLight {
+  background-color: #e3008c;
+}
+
+/* line 156, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-purpleDark {
+  background-color: #32145a;
+}
+
+/* line 160, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-purple {
+  background-color: #5c2d91;
+}
+
+/* line 164, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-purpleLight {
+  background-color: #b4a0ff;
+}
+
+/* line 168, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-blueDark {
+  background-color: #002050;
+}
+
+/* line 172, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-blueMid {
+  background-color: #00188f;
+}
+
+/* line 176, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-blue {
+  background-color: #0078d7;
+}
+
+/* line 180, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-blueLight {
+  background-color: #00bcf2;
+}
+
+/* line 184, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-tealDark {
+  background-color: #004b50;
+}
+
+/* line 188, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-teal {
+  background-color: #008272;
+}
+
+/* line 192, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-tealLight {
+  background-color: #00b294;
+}
+
+/* line 196, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-greenDark {
+  background-color: #004b1c;
+}
+
+/* line 200, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-green {
+  background-color: #107c10;
+}
+
+/* line 204, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-greenLight {
+  background-color: #bad80a;
+}
+
+/* line 209, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-info {
+  background-color: #f4f4f4;
+}
+
+/* line 213, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-success {
+  background-color: #dff6dd;
+}
+
+/* line 217, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-alert {
+  background-color: #f4f4f4;
+}
+
+/* line 221, Fabric.Color.Mixins.Output.scss */
+.ms-bgColor-error {
+  background-color: #fde7e9;
+}
+
+/* line 230, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themeDark,
+.ms-borderColor-themeDark--hover:hover {
+  border-color: #005a9e;
+}
+
+/* line 235, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themeDarkAlt,
+.ms-borderColor-themeDarkAlt--hover:hover {
+  border-color: #106ebe;
+}
+
+/* line 240, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themeDarker,
+.ms-borderColor-themeDarker--hover:hover {
+  border-color: #004578;
+}
+
+/* line 245, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themePrimary,
+.ms-borderColor-themePrimary--hover:hover {
+  border-color: #0078d7;
+}
+
+/* line 250, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themeSecondary,
+.ms-borderColor-themeSecondary--hover:hover {
+  border-color: #2488d8;
+}
+
+/* line 255, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themeTertiary,
+.ms-borderColor-themeTertiary--hover:hover {
+  border-color: #69afe5;
+}
+
+/* line 260, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themeLight,
+.ms-borderColor-themeLight--hover:hover {
+  border-color: #b3d6f2;
+}
+
+/* line 265, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themeLighter,
+.ms-borderColor-themeLighter--hover:hover {
+  border-color: #deecf9;
+}
+
+/* line 270, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-themeLighterAlt,
+.ms-borderColor-themeLighterAlt--hover:hover {
+  border-color: #eff6fc;
+}
+
+/* line 277, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-black,
+.ms-borderColor-black--hover:hover {
+  border-color: #000000;
+}
+
+/* line 282, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralDark,
+.ms-borderColor-neutralDark--hover:hover {
+  border-color: #212121;
+}
+
+/* line 287, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralPrimary,
+.ms-borderColor-neutralPrimary--hover:hover {
+  border-color: #333333;
+}
+
+/* line 292, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralSecondary,
+.ms-borderColor-neutralSecondary--hover:hover {
+  border-color: #666666;
+}
+
+/* line 297, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralSecondaryAlt,
+.ms-borderColor-neutralSecondaryAlt--hover:hover {
+  border-color: #767676;
+}
+
+/* line 302, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralTertiary,
+.ms-borderColor-neutralTertiary--hover:hover {
+  border-color: #a6a6a6;
+}
+
+/* line 307, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralTertiaryAlt,
+.ms-borderColor-neutralTertiaryAlt--hover:hover {
+  border-color: #c8c8c8;
+}
+
+/* line 312, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralLight,
+.ms-borderColor-neutralLight--hover:hover {
+  border-color: #eaeaea;
+}
+
+/* line 317, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralLighter,
+.ms-borderColor-neutralLighter--hover:hover {
+  border-color: #f4f4f4;
+}
+
+/* line 322, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-neutralLighterAlt,
+.ms-borderColor-neutralLighterAlt--hover:hover {
+  border-color: #f8f8f8;
+}
+
+/* line 327, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-white,
+.ms-borderColor-white--hover:hover {
+  border-color: #ffffff;
+}
+
+/* line 333, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-yellow {
+  border-color: #ffb900;
+}
+
+/* line 337, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-yellowLight {
+  border-color: #fff100;
+}
+
+/* line 341, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-orange {
+  border-color: #d83b01;
+}
+
+/* line 345, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-orangeLight {
+  border-color: #ea4300;
+}
+
+/* line 349, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-orangeLighter {
+  border-color: #ff8c00;
+}
+
+/* line 353, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-redDark {
+  border-color: #a80000;
+}
+
+/* line 357, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-red {
+  border-color: #e81123;
+}
+
+/* line 361, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-magentaDark {
+  border-color: #5c005c;
+}
+
+/* line 365, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-magenta {
+  border-color: #b4009e;
+}
+
+/* line 369, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-magentaLight {
+  border-color: #e3008c;
+}
+
+/* line 373, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-purpleDark {
+  border-color: #32145a;
+}
+
+/* line 377, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-purple {
+  border-color: #5c2d91;
+}
+
+/* line 381, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-purpleLight {
+  border-color: #b4a0ff;
+}
+
+/* line 385, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-blueDark {
+  border-color: #002050;
+}
+
+/* line 389, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-blueMid {
+  border-color: #00188f;
+}
+
+/* line 393, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-blue {
+  border-color: #0078d7;
+}
+
+/* line 397, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-blueLight {
+  border-color: #00bcf2;
+}
+
+/* line 401, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-tealDark {
+  border-color: #004b50;
+}
+
+/* line 405, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-teal {
+  border-color: #008272;
+}
+
+/* line 409, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-tealLight {
+  border-color: #00b294;
+}
+
+/* line 413, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-greenDark {
+  border-color: #004b1c;
+}
+
+/* line 417, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-green {
+  border-color: #107c10;
+}
+
+/* line 421, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-greenLight {
+  border-color: #bad80a;
+}
+
+/* line 427, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-info {
+  border-color: #107c10;
+}
+
+/* line 431, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-success {
+  border-color: #107c10;
+}
+
+/* line 435, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-alert {
+  border-color: #d83b01;
+}
+
+/* line 439, Fabric.Color.Mixins.Output.scss */
+.ms-borderColor-error {
+  border-color: #a80000;
+}
+
+/* line 445, Fabric.Color.Mixins.Output.scss */
+.ms-borderColorTop-themePrimary,
+.ms-borderColorTop-themePrimary--hover:hover {
+  border-top-color: #0078d7;
+}
+
+/* line 11, Fabric.Typography.Output.scss */
+.ms-font-su {
+  color: #333333;
+  font-family: "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+}
+
+/* line 18, Fabric.Typography.Output.scss */
+.ms-font-xxl {
+  color: #333333;
+  font-family: "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+/* line 24, Fabric.Typography.Output.scss */
+.ms-font-xl {
+  color: #333333;
+  font-family: "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+/* line 30, Fabric.Typography.Output.scss */
+.ms-font-l {
+  color: #333333;
+  font-family: "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+/* line 36, Fabric.Typography.Output.scss */
+.ms-font-m-plus {
+  color: #333333;
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/* line 42, Fabric.Typography.Output.scss */
+.ms-font-m {
+  color: #333333;
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 48, Fabric.Typography.Output.scss */
+.ms-font-s-plus {
+  color: #333333;
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* line 54, Fabric.Typography.Output.scss */
+.ms-font-s {
+  color: #333333;
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 60, Fabric.Typography.Output.scss */
+.ms-font-xs {
+  color: #333333;
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+/* line 66, Fabric.Typography.Output.scss */
+.ms-font-mi {
+  color: #333333;
+  font-family: "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/* line 75, Fabric.Typography.Output.scss */
+.ms-fontWeight-light,
+.ms-fontWeight-light--hover:hover {
+  font-family: "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 80, Fabric.Typography.Output.scss */
+.ms-fontWeight-semilight,
+.ms-fontWeight-semilight--hover:hover {
+  font-family: "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 85, Fabric.Typography.Output.scss */
+.ms-fontWeight-regular,
+.ms-fontWeight-regular--hover:hover {
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 90, Fabric.Typography.Output.scss */
+.ms-fontWeight-semibold,
+.ms-fontWeight-semibold--hover:hover {
+  font-family: "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 96, Fabric.Typography.Output.scss */
+.ms-fontSize-su {
+  font-size: 42px;
+}
+
+/* line 100, Fabric.Typography.Output.scss */
+.ms-fontSize-xxl {
+  font-size: 28px;
+}
+
+/* line 104, Fabric.Typography.Output.scss */
+.ms-fontSize-xl {
+  font-size: 21px;
+}
+
+/* line 108, Fabric.Typography.Output.scss */
+.ms-fontSize-l {
+  font-size: 17px;
+}
+
+/* line 112, Fabric.Typography.Output.scss */
+.ms-fontSize-mPlus {
+  font-size: 15px;
+}
+
+/* line 116, Fabric.Typography.Output.scss */
+.ms-fontSize-m {
+  font-size: 14px;
+}
+
+/* line 120, Fabric.Typography.Output.scss */
+.ms-fontSize-sPlus {
+  font-size: 13px;
+}
+
+/* line 124, Fabric.Typography.Output.scss */
+.ms-fontSize-s {
+  font-size: 12px;
+}
+
+/* line 128, Fabric.Typography.Output.scss */
+.ms-fontSize-xs {
+  font-size: 11px;
+}
+
+/* line 132, Fabric.Typography.Output.scss */
+.ms-fontSize-mi {
+  font-size: 10px;
+}
+
+/* line 137, Fabric.Typography.Output.scss */
+.ms-fontColor-themeDarker,
+.ms-fontColor-themeDarker--hover:hover {
+  color: #004578;
+}
+
+/* line 142, Fabric.Typography.Output.scss */
+.ms-fontColor-themeDark,
+.ms-fontColor-themeDark--hover:hover {
+  color: #005a9e;
+}
+
+/* line 147, Fabric.Typography.Output.scss */
+.ms-fontColor-themeDarkAlt,
+.ms-fontColor-themeDarkAlt--hover:hover {
+  color: #106ebe;
+}
+
+/* line 152, Fabric.Typography.Output.scss */
+.ms-fontColor-themePrimary,
+.ms-fontColor-themePrimary--hover:hover {
+  color: #0078d7;
+}
+
+/* line 157, Fabric.Typography.Output.scss */
+.ms-fontColor-themeSecondary,
+.ms-fontColor-themeSecondary--hover:hover {
+  color: #2488d8;
+}
+
+/* line 162, Fabric.Typography.Output.scss */
+.ms-fontColor-themeTertiary,
+.ms-fontColor-themeTertiary--hover:hover {
+  color: #69afe5;
+}
+
+/* line 167, Fabric.Typography.Output.scss */
+.ms-fontColor-themeLight,
+.ms-fontColor-themeLight--hover:hover {
+  color: #b3d6f2;
+}
+
+/* line 172, Fabric.Typography.Output.scss */
+.ms-fontColor-themeLighter,
+.ms-fontColor-themeLighter--hover:hover {
+  color: #deecf9;
+}
+
+/* line 177, Fabric.Typography.Output.scss */
+.ms-fontColor-themeLighterAlt,
+.ms-fontColor-themeLighterAlt--hover:hover {
+  color: #eff6fc;
+}
+
+/* line 184, Fabric.Typography.Output.scss */
+.ms-fontColor-black,
+.ms-fontColor-black--hover:hover {
+  color: #000000;
+}
+
+/* line 189, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralDark,
+.ms-fontColor-neutralDark--hover:hover {
+  color: #212121;
+}
+
+/* line 194, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralPrimary,
+.ms-fontColor-neutralPrimary--hover:hover {
+  color: #333333;
+}
+
+/* line 199, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralSecondary,
+.ms-fontColor-neutralSecondary--hover:hover {
+  color: #666666;
+}
+
+/* line 204, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralSecondaryAlt,
+.ms-fontColor-neutralSecondaryAlt--hover:hover {
+  color: #767676;
+}
+
+/* line 209, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralTertiary,
+.ms-fontColor-neutralTertiary--hover:hover {
+  color: #a6a6a6;
+}
+
+/* line 214, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralTertiaryAlt,
+.ms-fontColor-neutralTertiaryAlt--hover:hover {
+  color: #c8c8c8;
+}
+
+/* line 219, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralLight,
+.ms-fontColor-neutralLight--hover:hover {
+  color: #eaeaea;
+}
+
+/* line 224, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralLighter,
+.ms-fontColor-neutralLighter--hover:hover {
+  color: #f4f4f4;
+}
+
+/* line 229, Fabric.Typography.Output.scss */
+.ms-fontColor-neutralLighterAlt,
+.ms-fontColor-neutralLighterAlt--hover:hover {
+  color: #f8f8f8;
+}
+
+/* line 234, Fabric.Typography.Output.scss */
+.ms-fontColor-white,
+.ms-fontColor-white--hover:hover {
+  color: #ffffff;
+}
+
+/* line 240, Fabric.Typography.Output.scss */
+.ms-fontColor-yellow,
+.ms-fontColor-yellow--hover:hover {
+  color: #ffb900;
+}
+
+/* line 245, Fabric.Typography.Output.scss */
+.ms-fontColor-yellowLight,
+.ms-fontColor-yellowLight--hover:hover {
+  color: #fff100;
+}
+
+/* line 250, Fabric.Typography.Output.scss */
+.ms-fontColor-orange,
+.ms-fontColor-orange--hover:hover {
+  color: #d83b01;
+}
+
+/* line 255, Fabric.Typography.Output.scss */
+.ms-fontColor-orangeLight,
+.ms-fontColor-orangeLight--hover:hover {
+  color: #ea4300;
+}
+
+/* line 260, Fabric.Typography.Output.scss */
+.ms-fontColor-orangeLighter,
+.ms-fontColor-orangeLighter--hover:hover {
+  color: #ff8c00;
+}
+
+/* line 265, Fabric.Typography.Output.scss */
+.ms-fontColor-redDark,
+.ms-fontColor-redDark--hover:hover {
+  color: #a80000;
+}
+
+/* line 270, Fabric.Typography.Output.scss */
+.ms-fontColor-red,
+.ms-fontColor-red--hover:hover {
+  color: #e81123;
+}
+
+/* line 275, Fabric.Typography.Output.scss */
+.ms-fontColor-magentaDark,
+.ms-fontColor-magentaDark--hover:hover {
+  color: #5c005c;
+}
+
+/* line 280, Fabric.Typography.Output.scss */
+.ms-fontColor-magenta,
+.ms-fontColor-magenta--hover:hover {
+  color: #b4009e;
+}
+
+/* line 285, Fabric.Typography.Output.scss */
+.ms-fontColor-magentaLight,
+.ms-fontColor-magentaLight--hover:hover {
+  color: #e3008c;
+}
+
+/* line 290, Fabric.Typography.Output.scss */
+.ms-fontColor-purpleDark,
+.ms-fontColor-purpleDark--hover:hover {
+  color: #32145a;
+}
+
+/* line 295, Fabric.Typography.Output.scss */
+.ms-fontColor-purple,
+.ms-fontColor-purple--hover:hover {
+  color: #5c2d91;
+}
+
+/* line 300, Fabric.Typography.Output.scss */
+.ms-fontColor-purpleLight,
+.ms-fontColor-purpleLight--hover:hover {
+  color: #b4a0ff;
+}
+
+/* line 305, Fabric.Typography.Output.scss */
+.ms-fontColor-blueDark,
+.ms-fontColor-blueDark--hover:hover {
+  color: #002050;
+}
+
+/* line 310, Fabric.Typography.Output.scss */
+.ms-fontColor-blueMid,
+.ms-fontColor-blueMid--hover:hover {
+  color: #00188f;
+}
+
+/* line 315, Fabric.Typography.Output.scss */
+.ms-fontColor-blue,
+.ms-fontColor-blue--hover:hover {
+  color: #0078d7;
+}
+
+/* line 320, Fabric.Typography.Output.scss */
+.ms-fontColor-blueLight,
+.ms-fontColor-blueLight--hover:hover {
+  color: #00bcf2;
+}
+
+/* line 325, Fabric.Typography.Output.scss */
+.ms-fontColor-tealDark,
+.ms-fontColor-tealDark--hover:hover {
+  color: #004b50;
+}
+
+/* line 330, Fabric.Typography.Output.scss */
+.ms-fontColor-teal,
+.ms-fontColor-teal--hover:hover {
+  color: #008272;
+}
+
+/* line 335, Fabric.Typography.Output.scss */
+.ms-fontColor-tealLight,
+.ms-fontColor-tealLight--hover:hover {
+  color: #00b294;
+}
+
+/* line 340, Fabric.Typography.Output.scss */
+.ms-fontColor-greenDark,
+.ms-fontColor-greenDark--hover:hover {
+  color: #004b1c;
+}
+
+/* line 345, Fabric.Typography.Output.scss */
+.ms-fontColor-green,
+.ms-fontColor-green--hover:hover {
+  color: #107c10;
+}
+
+/* line 350, Fabric.Typography.Output.scss */
+.ms-fontColor-greenLight,
+.ms-fontColor-greenLight--hover:hover {
+  color: #bad80a;
+}
+
+/* line 356, Fabric.Typography.Output.scss */
+.ms-fontColor-info,
+.ms-fontColor-info--hover:hover {
+  color: #107c10;
+}
+
+/* line 361, Fabric.Typography.Output.scss */
+.ms-fontColor-success,
+.ms-fontColor-success--hover:hover {
+  color: #107c10;
+}
+
+/* line 366, Fabric.Typography.Output.scss */
+.ms-fontColor-alert,
+.ms-fontColor-alert--hover:hover {
+  color: #d83b01;
+}
+
+/* line 371, Fabric.Typography.Output.scss */
+.ms-fontColor-error,
+.ms-fontColor-error--hover:hover {
+  color: #a80000;
+}
+
+/*
+  Your use of the content in the files referenced here are subject to the terms of the license at http://aka.ms/fabric-font-license
+*/
+@font-face {
+  font-family: "Leelawadee UI Bold";
+  src: url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.eot?#iefix") format("embedded-opentype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold.ttf") format("truetype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Bold#LeelawadeeUI-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Leelawadee UI";
+  src: url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.eot?#iefix") format("embedded-opentype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular.ttf") format("truetype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Regular#LeelawadeeUI-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Leelawadee UI Semilight";
+  src: url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.eot?#iefix") format("embedded-opentype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight.ttf") format("truetype"), url("https://appsforoffice.microsoft.com/fabric/fonts/LeelawadeeUI-Thai/LeelawadeeUI-Semilight#LeelawadeeUI-Semilight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Arabic";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Arabic";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Arabic";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Arabic";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Arabic/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Cyrillic";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Cyrillic";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Cyrillic";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Cyrillic";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Cyrillic/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light EastEuropean";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular EastEuropean";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold EastEuropean";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight EastEuropean";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-EastEuropean/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Greek";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Greek";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Greek";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Greek";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Greek/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Hebrew";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Hebrew";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Hebrew";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Hebrew";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Hebrew/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light Vietnamese";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular Vietnamese";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold Vietnamese";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight Vietnamese";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-Vietnamese/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Light WestEuropean";
+  src: local("Segoe UI Light"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Regular WestEuropean";
+  src: local("Segoe UI"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semibold WestEuropean";
+  src: local("Segoe UI Semibold"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Segoe UI Semilight WestEuropean";
+  src: local("Segoe UI Semilight"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.woff2") format("woff2"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.woff") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 13, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ja-JP"] .ms-font-mi,
+*[lang="ja-JP"] .ms-font-xs,
+*[lang="ja-JP"] .ms-font-s,
+*[lang="ja-JP"] .ms-font-s-plus,
+*[lang="ja-JP"] .ms-font-m,
+*[lang="ja-JP"] .ms-font-m-plus,
+*[lang="ja-JP"] .ms-font-l,
+*[lang="ja-JP"] .ms-font-xl,
+*[lang="ja-JP"] .ms-font-xxl,
+*[lang="ja-JP"] .ms-font-su,
+*[lang="ja-JP"] .ms-fontWeight-light,
+*[lang="ja-JP"] .ms-fontWeight-light-hover:hover,
+*[lang="ja-JP"] .ms-fontWeight-semilight,
+*[lang="ja-JP"] .ms-fontWeight-semilight-hover:hover,
+*[lang="ja-JP"] .ms-fontWeight-regular,
+*[lang="ja-JP"] .ms-fontWeight-regular-hover:hover,
+*[lang="ja-JP"] .ms-fontWeight-semibold,
+*[lang="ja-JP"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Yu Gothic", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 13, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ko-KR"] .ms-font-mi,
+*[lang="ko-KR"] .ms-font-xs,
+*[lang="ko-KR"] .ms-font-s,
+*[lang="ko-KR"] .ms-font-s-plus,
+*[lang="ko-KR"] .ms-font-m,
+*[lang="ko-KR"] .ms-font-m-plus,
+*[lang="ko-KR"] .ms-font-l,
+*[lang="ko-KR"] .ms-font-xl,
+*[lang="ko-KR"] .ms-font-xxl,
+*[lang="ko-KR"] .ms-font-su,
+*[lang="ko-KR"] .ms-fontWeight-light,
+*[lang="ko-KR"] .ms-fontWeight-light-hover:hover,
+*[lang="ko-KR"] .ms-fontWeight-semilight,
+*[lang="ko-KR"] .ms-fontWeight-semilight-hover:hover,
+*[lang="ko-KR"] .ms-fontWeight-regular,
+*[lang="ko-KR"] .ms-fontWeight-regular-hover:hover,
+*[lang="ko-KR"] .ms-fontWeight-semibold,
+*[lang="ko-KR"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Malgun Gothic", Gulim, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 13, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ch-ZHS"] .ms-font-mi,
+*[lang="ch-ZHS"] .ms-font-xs,
+*[lang="ch-ZHS"] .ms-font-s,
+*[lang="ch-ZHS"] .ms-font-s-plus,
+*[lang="ch-ZHS"] .ms-font-m,
+*[lang="ch-ZHS"] .ms-font-m-plus,
+*[lang="ch-ZHS"] .ms-font-l,
+*[lang="ch-ZHS"] .ms-font-xl,
+*[lang="ch-ZHS"] .ms-font-xxl,
+*[lang="ch-ZHS"] .ms-font-su,
+*[lang="ch-ZHS"] .ms-fontWeight-light,
+*[lang="ch-ZHS"] .ms-fontWeight-light-hover:hover,
+*[lang="ch-ZHS"] .ms-fontWeight-semilight,
+*[lang="ch-ZHS"] .ms-fontWeight-semilight-hover:hover,
+*[lang="ch-ZHS"] .ms-fontWeight-regular,
+*[lang="ch-ZHS"] .ms-fontWeight-regular-hover:hover,
+*[lang="ch-ZHS"] .ms-fontWeight-semibold,
+*[lang="ch-ZHS"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Microsoft Yahei", Verdana, Simsun, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 13, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ch-ZHT"] .ms-font-mi,
+*[lang="ch-ZHT"] .ms-font-xs,
+*[lang="ch-ZHT"] .ms-font-s,
+*[lang="ch-ZHT"] .ms-font-s-plus,
+*[lang="ch-ZHT"] .ms-font-m,
+*[lang="ch-ZHT"] .ms-font-m-plus,
+*[lang="ch-ZHT"] .ms-font-l,
+*[lang="ch-ZHT"] .ms-font-xl,
+*[lang="ch-ZHT"] .ms-font-xxl,
+*[lang="ch-ZHT"] .ms-font-su,
+*[lang="ch-ZHT"] .ms-fontWeight-light,
+*[lang="ch-ZHT"] .ms-fontWeight-light-hover:hover,
+*[lang="ch-ZHT"] .ms-fontWeight-semilight,
+*[lang="ch-ZHT"] .ms-fontWeight-semilight-hover:hover,
+*[lang="ch-ZHT"] .ms-fontWeight-regular,
+*[lang="ch-ZHT"] .ms-fontWeight-regular-hover:hover,
+*[lang="ch-ZHT"] .ms-fontWeight-semibold,
+*[lang="ch-ZHT"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Microsoft Jhenghei", Pmingliu, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 13, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hi-IN"] .ms-font-mi,
+*[lang="hi-IN"] .ms-font-xs,
+*[lang="hi-IN"] .ms-font-s,
+*[lang="hi-IN"] .ms-font-s-plus,
+*[lang="hi-IN"] .ms-font-m,
+*[lang="hi-IN"] .ms-font-m-plus,
+*[lang="hi-IN"] .ms-font-l,
+*[lang="hi-IN"] .ms-font-xl,
+*[lang="hi-IN"] .ms-font-xxl,
+*[lang="hi-IN"] .ms-font-su,
+*[lang="hi-IN"] .ms-fontWeight-light,
+*[lang="hi-IN"] .ms-fontWeight-light-hover:hover,
+*[lang="hi-IN"] .ms-fontWeight-semilight,
+*[lang="hi-IN"] .ms-fontWeight-semilight-hover:hover,
+*[lang="hi-IN"] .ms-fontWeight-regular,
+*[lang="hi-IN"] .ms-fontWeight-regular-hover:hover,
+*[lang="hi-IN"] .ms-fontWeight-semibold,
+*[lang="hi-IN"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Nirmala UI", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="th-TH"] .ms-font-xl,
+*[lang="th-TH"] .ms-font-xxl,
+*[lang="th-TH"] .ms-fontWeight-light,
+*[lang="th-TH"] .ms-fontWeight-light-hover:hover {
+  font-family: "Leelawadee UI Semilight", "Kmer UI", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="th-TH"] .ms-font-l,
+*[lang="th-TH"] .ms-font-su,
+*[lang="th-TH"] .ms-fontWeight-semilight,
+*[lang="th-TH"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Leelawadee UI Semilight", "Kmer UI", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="th-TH"] .ms-fontWeight-regular,
+*[lang="th-TH"] .ms-fontweight-regular-hover:hover {
+  font-family: "Leelawadee UI Regular", "Kmer UI", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="th-TH"] .ms-font-mi,
+*[lang="th-TH"] .ms-fontWeight-semibold,
+*[lang="th-TH"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Leelawadee UI Bold", "Kmer UI", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ar"] .ms-font-xl,
+*[lang="ar"] .ms-font-xxl,
+*[lang="ar"] .ms-fontWeight-light,
+*[lang="ar"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light Arabic", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ar"] .ms-font-l,
+*[lang="ar"] .ms-font-su,
+*[lang="ar"] .ms-fontWeight-semilight,
+*[lang="ar"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight Arabic", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ar"] .ms-fontWeight-regular,
+*[lang="ar"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular Arabic", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ar"] .ms-font-mi,
+*[lang="ar"] .ms-fontWeight-semibold,
+*[lang="ar"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold Arabic", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="bg-BG"] .ms-font-xl,
+*[lang="bg-BG"] .ms-font-xxl,
+*[lang="bg-BG"] .ms-fontWeight-light,
+*[lang="bg-BG"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light Cyrillic", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="bg-BG"] .ms-font-l,
+*[lang="bg-BG"] .ms-font-su,
+*[lang="bg-BG"] .ms-fontWeight-semilight,
+*[lang="bg-BG"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight Cyrillic", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="bg-BG"] .ms-fontWeight-regular,
+*[lang="bg-BG"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular Cyrillic", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="bg-BG"] .ms-font-mi,
+*[lang="bg-BG"] .ms-fontWeight-semibold,
+*[lang="bg-BG"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold Cyrillic", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ru-RU"] .ms-font-xl,
+*[lang="ru-RU"] .ms-font-xxl,
+*[lang="ru-RU"] .ms-fontWeight-light,
+*[lang="ru-RU"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light Cyrillic", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ru-RU"] .ms-font-l,
+*[lang="ru-RU"] .ms-font-su,
+*[lang="ru-RU"] .ms-fontWeight-semilight,
+*[lang="ru-RU"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight Cyrillic", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ru-RU"] .ms-fontWeight-regular,
+*[lang="ru-RU"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular Cyrillic", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="ru-RU"] .ms-font-mi,
+*[lang="ru-RU"] .ms-fontWeight-semibold,
+*[lang="ru-RU"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold Cyrillic", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="uk-UA"] .ms-font-xl,
+*[lang="uk-UA"] .ms-font-xxl,
+*[lang="uk-UA"] .ms-fontWeight-light,
+*[lang="uk-UA"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light Cyrillic", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="uk-UA"] .ms-font-l,
+*[lang="uk-UA"] .ms-font-su,
+*[lang="uk-UA"] .ms-fontWeight-semilight,
+*[lang="uk-UA"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight Cyrillic", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="uk-UA"] .ms-fontWeight-regular,
+*[lang="uk-UA"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular Cyrillic", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="uk-UA"] .ms-font-mi,
+*[lang="uk-UA"] .ms-fontWeight-semibold,
+*[lang="uk-UA"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold Cyrillic", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="cs-CZ"] .ms-font-xl,
+*[lang="cs-CZ"] .ms-font-xxl,
+*[lang="cs-CZ"] .ms-fontWeight-light,
+*[lang="cs-CZ"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="cs-CZ"] .ms-font-l,
+*[lang="cs-CZ"] .ms-font-su,
+*[lang="cs-CZ"] .ms-fontWeight-semilight,
+*[lang="cs-CZ"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="cs-CZ"] .ms-fontWeight-regular,
+*[lang="cs-CZ"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="cs-CZ"] .ms-font-mi,
+*[lang="cs-CZ"] .ms-fontWeight-semibold,
+*[lang="cs-CZ"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="et-EE"] .ms-font-xl,
+*[lang="et-EE"] .ms-font-xxl,
+*[lang="et-EE"] .ms-fontWeight-light,
+*[lang="et-EE"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="et-EE"] .ms-font-l,
+*[lang="et-EE"] .ms-font-su,
+*[lang="et-EE"] .ms-fontWeight-semilight,
+*[lang="et-EE"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="et-EE"] .ms-fontWeight-regular,
+*[lang="et-EE"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="et-EE"] .ms-font-mi,
+*[lang="et-EE"] .ms-fontWeight-semibold,
+*[lang="et-EE"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hr-HR"] .ms-font-xl,
+*[lang="hr-HR"] .ms-font-xxl,
+*[lang="hr-HR"] .ms-fontWeight-light,
+*[lang="hr-HR"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hr-HR"] .ms-font-l,
+*[lang="hr-HR"] .ms-font-su,
+*[lang="hr-HR"] .ms-fontWeight-semilight,
+*[lang="hr-HR"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hr-HR"] .ms-fontWeight-regular,
+*[lang="hr-HR"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hr-HR"] .ms-font-mi,
+*[lang="hr-HR"] .ms-fontWeight-semibold,
+*[lang="hr-HR"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hu-HU"] .ms-font-xl,
+*[lang="hu-HU"] .ms-font-xxl,
+*[lang="hu-HU"] .ms-fontWeight-light,
+*[lang="hu-HU"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hu-HU"] .ms-font-l,
+*[lang="hu-HU"] .ms-font-su,
+*[lang="hu-HU"] .ms-fontWeight-semilight,
+*[lang="hu-HU"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hu-HU"] .ms-fontWeight-regular,
+*[lang="hu-HU"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="hu-HU"] .ms-font-mi,
+*[lang="hu-HU"] .ms-fontWeight-semibold,
+*[lang="hu-HU"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lt-LT"] .ms-font-xl,
+*[lang="lt-LT"] .ms-font-xxl,
+*[lang="lt-LT"] .ms-fontWeight-light,
+*[lang="lt-LT"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lt-LT"] .ms-font-l,
+*[lang="lt-LT"] .ms-font-su,
+*[lang="lt-LT"] .ms-fontWeight-semilight,
+*[lang="lt-LT"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lt-LT"] .ms-fontWeight-regular,
+*[lang="lt-LT"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lt-LT"] .ms-font-mi,
+*[lang="lt-LT"] .ms-fontWeight-semibold,
+*[lang="lt-LT"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lv-LV"] .ms-font-xl,
+*[lang="lv-LV"] .ms-font-xxl,
+*[lang="lv-LV"] .ms-fontWeight-light,
+*[lang="lv-LV"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lv-LV"] .ms-font-l,
+*[lang="lv-LV"] .ms-font-su,
+*[lang="lv-LV"] .ms-fontWeight-semilight,
+*[lang="lv-LV"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lv-LV"] .ms-fontWeight-regular,
+*[lang="lv-LV"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lv-LV"] .ms-font-mi,
+*[lang="lv-LV"] .ms-fontWeight-semibold,
+*[lang="lv-LV"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="pl-PL"] .ms-font-xl,
+*[lang="pl-PL"] .ms-font-xxl,
+*[lang="pl-PL"] .ms-fontWeight-light,
+*[lang="pl-PL"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="pl-PL"] .ms-font-l,
+*[lang="pl-PL"] .ms-font-su,
+*[lang="pl-PL"] .ms-fontWeight-semilight,
+*[lang="pl-PL"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="pl-PL"] .ms-fontWeight-regular,
+*[lang="pl-PL"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="pl-PL"] .ms-font-mi,
+*[lang="pl-PL"] .ms-fontWeight-semibold,
+*[lang="pl-PL"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lt-sr-SP"] .ms-font-xl,
+*[lang="lt-sr-SP"] .ms-font-xxl,
+*[lang="lt-sr-SP"] .ms-fontWeight-light,
+*[lang="lt-sr-SP"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lt-sr-SP"] .ms-font-l,
+*[lang="lt-sr-SP"] .ms-font-su,
+*[lang="lt-sr-SP"] .ms-fontWeight-semilight,
+*[lang="lt-sr-SP"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lt-sr-SP"] .ms-fontWeight-regular,
+*[lang="lt-sr-SP"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="lt-sr-SP"] .ms-font-mi,
+*[lang="lt-sr-SP"] .ms-fontWeight-semibold,
+*[lang="lt-sr-SP"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="tr-TR"] .ms-font-xl,
+*[lang="tr-TR"] .ms-font-xxl,
+*[lang="tr-TR"] .ms-fontWeight-light,
+*[lang="tr-TR"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="tr-TR"] .ms-font-l,
+*[lang="tr-TR"] .ms-font-su,
+*[lang="tr-TR"] .ms-fontWeight-semilight,
+*[lang="tr-TR"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="tr-TR"] .ms-fontWeight-regular,
+*[lang="tr-TR"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="tr-TR"] .ms-font-mi,
+*[lang="tr-TR"] .ms-fontWeight-semibold,
+*[lang="tr-TR"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="sk-SK"] .ms-font-xl,
+*[lang="sk-SK"] .ms-font-xxl,
+*[lang="sk-SK"] .ms-fontWeight-light,
+*[lang="sk-SK"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="sk-SK"] .ms-font-l,
+*[lang="sk-SK"] .ms-font-su,
+*[lang="sk-SK"] .ms-fontWeight-semilight,
+*[lang="sk-SK"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="sk-SK"] .ms-fontWeight-regular,
+*[lang="sk-SK"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="sk-SK"] .ms-font-mi,
+*[lang="sk-SK"] .ms-fontWeight-semibold,
+*[lang="sk-SK"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="kk-KZ"] .ms-font-xl,
+*[lang="kk-KZ"] .ms-font-xxl,
+*[lang="kk-KZ"] .ms-fontWeight-light,
+*[lang="kk-KZ"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light EastEuropean", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="kk-KZ"] .ms-font-l,
+*[lang="kk-KZ"] .ms-font-su,
+*[lang="kk-KZ"] .ms-fontWeight-semilight,
+*[lang="kk-KZ"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight EastEuropean", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="kk-KZ"] .ms-fontWeight-regular,
+*[lang="kk-KZ"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular EastEuropean", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="kk-KZ"] .ms-font-mi,
+*[lang="kk-KZ"] .ms-fontWeight-semibold,
+*[lang="kk-KZ"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold EastEuropean", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="el-GR"] .ms-font-xl,
+*[lang="el-GR"] .ms-font-xxl,
+*[lang="el-GR"] .ms-fontWeight-light,
+*[lang="el-GR"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light Greek", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="el-GR"] .ms-font-l,
+*[lang="el-GR"] .ms-font-su,
+*[lang="el-GR"] .ms-fontWeight-semilight,
+*[lang="el-GR"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight Greek", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="el-GR"] .ms-fontWeight-regular,
+*[lang="el-GR"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular Greek", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="el-GR"] .ms-font-mi,
+*[lang="el-GR"] .ms-fontWeight-semibold,
+*[lang="el-GR"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold Greek", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="he-IL"] .ms-font-xl,
+*[lang="he-IL"] .ms-font-xxl,
+*[lang="he-IL"] .ms-fontWeight-light,
+*[lang="he-IL"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light Hebrew", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="he-IL"] .ms-font-l,
+*[lang="he-IL"] .ms-font-su,
+*[lang="he-IL"] .ms-fontWeight-semilight,
+*[lang="he-IL"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight Hebrew", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="he-IL"] .ms-fontWeight-regular,
+*[lang="he-IL"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular Hebrew", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="he-IL"] .ms-font-mi,
+*[lang="he-IL"] .ms-fontWeight-semibold,
+*[lang="he-IL"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold Hebrew", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* line 53, _Fabric.Typography.Language.Overrides.scss */
+*[lang="vi-VN"] .ms-font-xl,
+*[lang="vi-VN"] .ms-font-xxl,
+*[lang="vi-VN"] .ms-fontWeight-light,
+*[lang="vi-VN"] .ms-fontWeight-light-hover:hover {
+  font-family: "Segoe UI Light Vietnamese", "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 59, _Fabric.Typography.Language.Overrides.scss */
+*[lang="vi-VN"] .ms-font-l,
+*[lang="vi-VN"] .ms-font-su,
+*[lang="vi-VN"] .ms-fontWeight-semilight,
+*[lang="vi-VN"] .ms-fontWeight-semilight-hover:hover {
+  font-family: "Segoe UI Semilight Vietnamese", "Segoe UI Semilight WestEuropean", "Segoe UI Semilight", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 65, _Fabric.Typography.Language.Overrides.scss */
+*[lang="vi-VN"] .ms-fontWeight-regular,
+*[lang="vi-VN"] .ms-fontweight-regular-hover:hover {
+  font-family: "Segoe UI Regular Vietnamese", "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 69, _Fabric.Typography.Language.Overrides.scss */
+*[lang="vi-VN"] .ms-font-mi,
+*[lang="vi-VN"] .ms-fontWeight-semibold,
+*[lang="vi-VN"] .ms-fontWeight-semibold-hover:hover {
+  font-family: "Segoe UI Semibold Vietnamese", "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/*
+  Your use of the content in the files referenced here are subject to the terms of the license at http://aka.ms/fabric-font-license
+*/
+/*
+  Your use of the content in the files referenced here are subject to the terms of the license at http://aka.ms/fabric-font-license
+*/
+@font-face {
+  font-family: 'Office365Icons';
+  src: url("https://appsforoffice.microsoft.com/fabric/fonts/icons/office365icons.eot?");
+  src: url("https://appsforoffice.microsoft.com/fabric/fonts/icons/office365icons.eot?#iefix") format("embedded-opentype"), url("https://appsforoffice.microsoft.com/fabric/fonts/icons/office365icons.woff?") format("woff"), url("https://appsforoffice.microsoft.com/fabric/fonts/icons/office365icons.ttf?") format("truetype"), url("https://appsforoffice.microsoft.com/fabric/fonts/icons/office365icons.svg?#office365icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, Fabric.Icons.Output.scss */
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'Office365Icons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+}
+
+/* line 18, Fabric.Icons.Output.scss */
+.ms-Icon--circleEmpty:before {
+  content: '\e000';
+}
+
+/* line 19, Fabric.Icons.Output.scss */
+.ms-Icon--circleFill:before {
+  content: '\e001';
+}
+
+/* line 20, Fabric.Icons.Output.scss */
+.ms-Icon--placeholder:before {
+  content: '\e002';
+}
+
+/* line 21, Fabric.Icons.Output.scss */
+.ms-Icon--star:before {
+  content: '\e003';
+}
+
+/* line 22, Fabric.Icons.Output.scss */
+.ms-Icon--plus:before {
+  content: '\e004';
+}
+
+/* line 23, Fabric.Icons.Output.scss */
+.ms-Icon--minus:before {
+  content: '\e005';
+}
+
+/* line 24, Fabric.Icons.Output.scss */
+.ms-Icon--question:before {
+  content: '\e006';
+}
+
+/* line 25, Fabric.Icons.Output.scss */
+.ms-Icon--exclamation:before {
+  content: '\e007';
+}
+
+/* line 26, Fabric.Icons.Output.scss */
+.ms-Icon--person:before {
+  content: '\e008';
+}
+
+/* line 27, Fabric.Icons.Output.scss */
+.ms-Icon--mail:before {
+  content: '\e009';
+}
+
+/* line 28, Fabric.Icons.Output.scss */
+.ms-Icon--infoCircle:before {
+  content: '\e00a';
+}
+
+/* line 29, Fabric.Icons.Output.scss */
+.ms-Icon--alert:before {
+  content: '\e00b';
+}
+
+/* line 30, Fabric.Icons.Output.scss */
+.ms-Icon--xCircle:before {
+  content: '\e00c';
+}
+
+/* line 31, Fabric.Icons.Output.scss */
+.ms-Icon--mailOpen:before {
+  content: '\e00d';
+}
+
+/* line 32, Fabric.Icons.Output.scss */
+.ms-Icon--people:before {
+  content: '\e00e';
+}
+
+/* line 33, Fabric.Icons.Output.scss */
+.ms-Icon--bell:before {
+  content: '\e010';
+}
+
+/* line 34, Fabric.Icons.Output.scss */
+.ms-Icon--calendar:before {
+  content: '\e011';
+}
+
+/* line 35, Fabric.Icons.Output.scss */
+.ms-Icon--scheduling:before {
+  content: '\e012';
+}
+
+/* line 36, Fabric.Icons.Output.scss */
+.ms-Icon--event:before {
+  content: '\e013';
+}
+
+/* line 37, Fabric.Icons.Output.scss */
+.ms-Icon--folder:before {
+  content: '\e014';
+}
+
+/* line 38, Fabric.Icons.Output.scss */
+.ms-Icon--documents:before {
+  content: '\e015';
+}
+
+/* line 39, Fabric.Icons.Output.scss */
+.ms-Icon--onedrive:before {
+  content: '\e016';
+}
+
+/* line 40, Fabric.Icons.Output.scss */
+.ms-Icon--chat:before {
+  content: '\e017';
+}
+
+/* line 41, Fabric.Icons.Output.scss */
+.ms-Icon--sites:before {
+  content: '\e018';
+}
+
+/* line 42, Fabric.Icons.Output.scss */
+.ms-Icon--listBullets:before {
+  content: '\e019';
+}
+
+/* line 43, Fabric.Icons.Output.scss */
+.ms-Icon--calendarWeek:before {
+  content: '\e01a';
+}
+
+/* line 44, Fabric.Icons.Output.scss */
+.ms-Icon--calendarWorkWeek:before {
+  content: '\e01b';
+}
+
+/* line 45, Fabric.Icons.Output.scss */
+.ms-Icon--calendarDay:before {
+  content: '\e01c';
+}
+
+/* line 46, Fabric.Icons.Output.scss */
+.ms-Icon--folderMove:before {
+  content: '\e01d';
+}
+
+/* line 47, Fabric.Icons.Output.scss */
+.ms-Icon--panel:before {
+  content: '\e01e';
+}
+
+/* line 48, Fabric.Icons.Output.scss */
+.ms-Icon--popout:before {
+  content: '\e01f';
+}
+
+/* line 49, Fabric.Icons.Output.scss */
+.ms-Icon--menu:before {
+  content: '\e020';
+}
+
+/* line 50, Fabric.Icons.Output.scss */
+.ms-Icon--home:before {
+  content: '\e021';
+}
+
+/* line 51, Fabric.Icons.Output.scss */
+.ms-Icon--favorites:before {
+  content: '\e022';
+}
+
+/* line 52, Fabric.Icons.Output.scss */
+.ms-Icon--phone:before {
+  content: '\e023';
+}
+
+/* line 53, Fabric.Icons.Output.scss */
+.ms-Icon--mailSend:before {
+  content: '\e024';
+}
+
+/* line 54, Fabric.Icons.Output.scss */
+.ms-Icon--save:before {
+  content: '\e025';
+}
+
+/* line 55, Fabric.Icons.Output.scss */
+.ms-Icon--trash:before {
+  content: '\e026';
+}
+
+/* line 56, Fabric.Icons.Output.scss */
+.ms-Icon--pencil:before {
+  content: '\e027';
+}
+
+/* line 57, Fabric.Icons.Output.scss */
+.ms-Icon--flag:before {
+  content: '\e028';
+}
+
+/* line 58, Fabric.Icons.Output.scss */
+.ms-Icon--reply:before {
+  content: '\e029';
+}
+
+/* line 59, Fabric.Icons.Output.scss */
+.ms-Icon--miniatures:before {
+  content: '\e02a';
+}
+
+/* line 60, Fabric.Icons.Output.scss */
+.ms-Icon--voicemail:before {
+  content: '\e02b';
+}
+
+/* line 61, Fabric.Icons.Output.scss */
+.ms-Icon--play:before {
+  content: '\e02c';
+}
+
+/* line 62, Fabric.Icons.Output.scss */
+.ms-Icon--pause:before {
+  content: '\e02d';
+}
+
+/* line 63, Fabric.Icons.Output.scss */
+.ms-Icon--onlineAdd:before {
+  content: '\e02e';
+}
+
+/* line 64, Fabric.Icons.Output.scss */
+.ms-Icon--onlineJoin:before {
+  content: '\e02f';
+}
+
+/* line 65, Fabric.Icons.Output.scss */
+.ms-Icon--replyAll:before {
+  content: '\e030';
+}
+
+/* line 66, Fabric.Icons.Output.scss */
+.ms-Icon--attachment:before {
+  content: '\e031';
+}
+
+/* line 67, Fabric.Icons.Output.scss */
+.ms-Icon--drm:before {
+  content: '\e032';
+}
+
+/* line 68, Fabric.Icons.Output.scss */
+.ms-Icon--pinDown:before {
+  content: '\e033';
+}
+
+/* line 69, Fabric.Icons.Output.scss */
+.ms-Icon--refresh:before {
+  content: '\e034';
+}
+
+/* line 70, Fabric.Icons.Output.scss */
+.ms-Icon--gear:before {
+  content: '\e035';
+}
+
+/* line 71, Fabric.Icons.Output.scss */
+.ms-Icon--smiley:before {
+  content: '\e036';
+}
+
+/* line 72, Fabric.Icons.Output.scss */
+.ms-Icon--info:before {
+  content: '\e037';
+}
+
+/* line 73, Fabric.Icons.Output.scss */
+.ms-Icon--lock:before {
+  content: '\e038';
+}
+
+/* line 74, Fabric.Icons.Output.scss */
+.ms-Icon--search:before {
+  content: '\e039';
+}
+
+/* line 75, Fabric.Icons.Output.scss */
+.ms-Icon--questionReverse:before {
+  content: '\e03a';
+}
+
+/* line 76, Fabric.Icons.Output.scss */
+.ms-Icon--notRecurring:before {
+  content: '\e03b';
+}
+
+/* line 77, Fabric.Icons.Output.scss */
+.ms-Icon--tasks:before {
+  content: '\e040';
+}
+
+/* line 78, Fabric.Icons.Output.scss */
+.ms-Icon--check:before {
+  content: '\e041';
+}
+
+/* line 79, Fabric.Icons.Output.scss */
+.ms-Icon--x:before {
+  content: '\e042';
+}
+
+/* line 80, Fabric.Icons.Output.scss */
+.ms-Icon--ellipsis:before {
+  content: '\e045';
+}
+
+/* line 81, Fabric.Icons.Output.scss */
+.ms-Icon--dot:before {
+  content: '\e046';
+}
+
+/* line 82, Fabric.Icons.Output.scss */
+.ms-Icon--arrowUp:before {
+  content: '\e047';
+}
+
+/* line 83, Fabric.Icons.Output.scss */
+.ms-Icon--arrowDown:before {
+  content: '\e048';
+}
+
+/* line 84, Fabric.Icons.Output.scss */
+.ms-Icon--arrowLeft:before {
+  content: '\e049';
+}
+
+/* line 85, Fabric.Icons.Output.scss */
+.ms-Icon--arrowRight:before {
+  content: '\e04a';
+}
+
+/* line 86, Fabric.Icons.Output.scss */
+.ms-Icon--download:before {
+  content: '\e04b';
+}
+
+/* line 87, Fabric.Icons.Output.scss */
+.ms-Icon--directions:before {
+  content: '\e04c';
+}
+
+/* line 88, Fabric.Icons.Output.scss */
+.ms-Icon--microphone:before {
+  content: '\e04f';
+}
+
+/* line 89, Fabric.Icons.Output.scss */
+.ms-Icon--caretUp:before {
+  content: '\e051';
+}
+
+/* line 90, Fabric.Icons.Output.scss */
+.ms-Icon--caretDown:before {
+  content: '\e052';
+}
+
+/* line 91, Fabric.Icons.Output.scss */
+.ms-Icon--caretLeft:before {
+  content: '\e053';
+}
+
+/* line 92, Fabric.Icons.Output.scss */
+.ms-Icon--caretRight:before {
+  content: '\e054';
+}
+
+/* line 93, Fabric.Icons.Output.scss */
+.ms-Icon--caretUpLeft:before {
+  content: '\e05a';
+}
+
+/* line 94, Fabric.Icons.Output.scss */
+.ms-Icon--caretUpRight:before {
+  content: '\e05b';
+}
+
+/* line 95, Fabric.Icons.Output.scss */
+.ms-Icon--caretDownRight:before {
+  content: '\e05c';
+}
+
+/* line 96, Fabric.Icons.Output.scss */
+.ms-Icon--caretDownLeft:before {
+  content: '\e05d';
+}
+
+/* line 97, Fabric.Icons.Output.scss */
+.ms-Icon--note:before {
+  content: '\e06a';
+}
+
+/* line 98, Fabric.Icons.Output.scss */
+.ms-Icon--noteReply:before {
+  content: '\e06b';
+}
+
+/* line 99, Fabric.Icons.Output.scss */
+.ms-Icon--noteForward:before {
+  content: '\e06c';
+}
+
+/* line 100, Fabric.Icons.Output.scss */
+.ms-Icon--key:before {
+  content: '\e06f';
+}
+
+/* line 101, Fabric.Icons.Output.scss */
+.ms-Icon--tile:before {
+  content: '\e070';
+}
+
+/* line 102, Fabric.Icons.Output.scss */
+.ms-Icon--taskRecurring:before {
+  content: '\e071';
+}
+
+/* line 103, Fabric.Icons.Output.scss */
+.ms-Icon--starEmpty:before {
+  content: '\e073';
+}
+
+/* line 104, Fabric.Icons.Output.scss */
+.ms-Icon--upload:before {
+  content: '\e076';
+}
+
+/* line 105, Fabric.Icons.Output.scss */
+.ms-Icon--wrench:before {
+  content: '\e077';
+}
+
+/* line 106, Fabric.Icons.Output.scss */
+.ms-Icon--share:before {
+  content: '\e078';
+}
+
+/* line 107, Fabric.Icons.Output.scss */
+.ms-Icon--documentReply:before {
+  content: '\e079';
+}
+
+/* line 108, Fabric.Icons.Output.scss */
+.ms-Icon--documentForward:before {
+  content: '\e07a';
+}
+
+/* line 109, Fabric.Icons.Output.scss */
+.ms-Icon--partner:before {
+  content: '\e080';
+}
+
+/* line 110, Fabric.Icons.Output.scss */
+.ms-Icon--reactivate:before {
+  content: '\e084';
+}
+
+/* line 111, Fabric.Icons.Output.scss */
+.ms-Icon--sort:before {
+  content: '\e085';
+}
+
+/* line 112, Fabric.Icons.Output.scss */
+.ms-Icon--personAdd:before {
+  content: '\e086';
+}
+
+/* line 113, Fabric.Icons.Output.scss */
+.ms-Icon--chevronUp:before {
+  content: '\e087';
+}
+
+/* line 114, Fabric.Icons.Output.scss */
+.ms-Icon--chevronDown:before {
+  content: '\e088';
+}
+
+/* line 115, Fabric.Icons.Output.scss */
+.ms-Icon--chevronLeft:before {
+  content: '\e089';
+}
+
+/* line 116, Fabric.Icons.Output.scss */
+.ms-Icon--chevronRight:before {
+  content: '\e08a';
+}
+
+/* line 117, Fabric.Icons.Output.scss */
+.ms-Icon--peopleAdd:before {
+  content: '\e08c';
+}
+
+/* line 118, Fabric.Icons.Output.scss */
+.ms-Icon--newsfeed:before {
+  content: '\e08d';
+}
+
+/* line 119, Fabric.Icons.Output.scss */
+.ms-Icon--notebook:before {
+  content: '\e08e';
+}
+
+/* line 120, Fabric.Icons.Output.scss */
+.ms-Icon--link:before {
+  content: '\e08f';
+}
+
+/* line 121, Fabric.Icons.Output.scss */
+.ms-Icon--chevronsUp:before {
+  content: '\e090';
+}
+
+/* line 122, Fabric.Icons.Output.scss */
+.ms-Icon--chevronsDown:before {
+  content: '\e091';
+}
+
+/* line 123, Fabric.Icons.Output.scss */
+.ms-Icon--chevronsLeft:before {
+  content: '\e092';
+}
+
+/* line 124, Fabric.Icons.Output.scss */
+.ms-Icon--chevronsRight:before {
+  content: '\e093';
+}
+
+/* line 125, Fabric.Icons.Output.scss */
+.ms-Icon--clutter:before {
+  content: '\e09a';
+}
+
+/* line 126, Fabric.Icons.Output.scss */
+.ms-Icon--subscribe:before {
+  content: '\e09c';
+}
+
+/* line 127, Fabric.Icons.Output.scss */
+.ms-Icon--unsubscribe:before {
+  content: '\e09d';
+}
+
+/* line 128, Fabric.Icons.Output.scss */
+.ms-Icon--personRemove:before {
+  content: '\e09e';
+}
+
+/* line 129, Fabric.Icons.Output.scss */
+.ms-Icon--receiptForward:before {
+  content: '\e0a0';
+}
+
+/* line 130, Fabric.Icons.Output.scss */
+.ms-Icon--receiptReply:before {
+  content: '\e0a1';
+}
+
+/* line 131, Fabric.Icons.Output.scss */
+.ms-Icon--receiptCheck:before {
+  content: '\e0a2';
+}
+
+/* line 132, Fabric.Icons.Output.scss */
+.ms-Icon--peopleRemove:before {
+  content: '\e0a3';
+}
+
+/* line 133, Fabric.Icons.Output.scss */
+.ms-Icon--merge:before {
+  content: '\e0a4';
+}
+
+/* line 134, Fabric.Icons.Output.scss */
+.ms-Icon--split:before {
+  content: '\e0a5';
+}
+
+/* line 135, Fabric.Icons.Output.scss */
+.ms-Icon--eventCancel:before {
+  content: '\e0a6';
+}
+
+/* line 136, Fabric.Icons.Output.scss */
+.ms-Icon--eventShare:before {
+  content: '\e0a7';
+}
+
+/* line 137, Fabric.Icons.Output.scss */
+.ms-Icon--today:before {
+  content: '\e0a9';
+}
+
+/* line 138, Fabric.Icons.Output.scss */
+.ms-Icon--oofReply:before {
+  content: '\e0aa';
+}
+
+/* line 139, Fabric.Icons.Output.scss */
+.ms-Icon--voicemailReply:before {
+  content: '\e0ac';
+}
+
+/* line 140, Fabric.Icons.Output.scss */
+.ms-Icon--voicemailForward:before {
+  content: '\e0ad';
+}
+
+/* line 141, Fabric.Icons.Output.scss */
+.ms-Icon--ribbon:before {
+  content: '\e0af';
+}
+
+/* line 142, Fabric.Icons.Output.scss */
+.ms-Icon--contact:before {
+  content: '\e0b0';
+}
+
+/* line 143, Fabric.Icons.Output.scss */
+.ms-Icon--eye:before {
+  content: '\e0b1';
+}
+
+/* line 144, Fabric.Icons.Output.scss */
+.ms-Icon--glasses:before {
+  content: '\e0b2';
+}
+
+/* line 145, Fabric.Icons.Output.scss */
+.ms-Icon--print:before {
+  content: '\e100';
+}
+
+/* line 146, Fabric.Icons.Output.scss */
+.ms-Icon--room:before {
+  content: '\e101';
+}
+
+/* line 147, Fabric.Icons.Output.scss */
+.ms-Icon--post:before {
+  content: '\e102';
+}
+
+/* line 148, Fabric.Icons.Output.scss */
+.ms-Icon--toggle:before {
+  content: '\e103';
+}
+
+/* line 149, Fabric.Icons.Output.scss */
+.ms-Icon--touch:before {
+  content: '\e104';
+}
+
+/* line 150, Fabric.Icons.Output.scss */
+.ms-Icon--clock:before {
+  content: '\e105';
+}
+
+/* line 151, Fabric.Icons.Output.scss */
+.ms-Icon--fax:before {
+  content: '\e106';
+}
+
+/* line 152, Fabric.Icons.Output.scss */
+.ms-Icon--lightning:before {
+  content: '\e110';
+}
+
+/* line 153, Fabric.Icons.Output.scss */
+.ms-Icon--dialpad:before {
+  content: '\e111';
+}
+
+/* line 154, Fabric.Icons.Output.scss */
+.ms-Icon--phoneTransfer:before {
+  content: '\e112';
+}
+
+/* line 155, Fabric.Icons.Output.scss */
+.ms-Icon--phoneAdd:before {
+  content: '\e113';
+}
+
+/* line 156, Fabric.Icons.Output.scss */
+.ms-Icon--late:before {
+  content: '\e114';
+}
+
+/* line 157, Fabric.Icons.Output.scss */
+.ms-Icon--chatAdd:before {
+  content: '\e115';
+}
+
+/* line 158, Fabric.Icons.Output.scss */
+.ms-Icon--conflict:before {
+  content: '\e116';
+}
+
+/* line 159, Fabric.Icons.Output.scss */
+.ms-Icon--navigate:before {
+  content: '\e117';
+}
+
+/* line 160, Fabric.Icons.Output.scss */
+.ms-Icon--camera:before {
+  content: '\e119';
+}
+
+/* line 161, Fabric.Icons.Output.scss */
+.ms-Icon--filter:before {
+  content: '\e11a';
+}
+
+/* line 162, Fabric.Icons.Output.scss */
+.ms-Icon--fullscreen:before {
+  content: '\e11b';
+}
+
+/* line 163, Fabric.Icons.Output.scss */
+.ms-Icon--new:before {
+  content: '\e11c';
+}
+
+/* line 164, Fabric.Icons.Output.scss */
+.ms-Icon--mailEmpty:before {
+  content: '\e11d';
+}
+
+/* line 165, Fabric.Icons.Output.scss */
+.ms-Icon--editBox:before {
+  content: '\e11e';
+}
+
+/* line 166, Fabric.Icons.Output.scss */
+.ms-Icon--waffle:before {
+  content: '\e11f';
+}
+
+/* line 167, Fabric.Icons.Output.scss */
+.ms-Icon--work:before {
+  content: '\e120';
+}
+
+/* line 168, Fabric.Icons.Output.scss */
+.ms-Icon--eventRecurring:before {
+  content: '\e121';
+}
+
+/* line 169, Fabric.Icons.Output.scss */
+.ms-Icon--cart:before {
+  content: '\e122';
+}
+
+/* line 170, Fabric.Icons.Output.scss */
+.ms-Icon--socialListening:before {
+  content: '\e123';
+}
+
+/* line 171, Fabric.Icons.Output.scss */
+.ms-Icon--mapMarker:before {
+  content: '\e124';
+}
+
+/* line 172, Fabric.Icons.Output.scss */
+.ms-Icon--org:before {
+  content: '\e125';
+}
+
+/* line 173, Fabric.Icons.Output.scss */
+.ms-Icon--replyAlt:before {
+  content: '\e150';
+}
+
+/* line 174, Fabric.Icons.Output.scss */
+.ms-Icon--replyAllAlt:before {
+  content: '\e152';
+}
+
+/* line 175, Fabric.Icons.Output.scss */
+.ms-Icon--eventInfo:before {
+  content: '\e154';
+}
+
+/* line 176, Fabric.Icons.Output.scss */
+.ms-Icon--group:before {
+  content: '\e155';
+}
+
+/* line 177, Fabric.Icons.Output.scss */
+.ms-Icon--money:before {
+  content: '\e161';
+}
+
+/* line 178, Fabric.Icons.Output.scss */
+.ms-Icon--graph:before {
+  content: '\e162';
+}
+
+/* line 179, Fabric.Icons.Output.scss */
+.ms-Icon--noteEdit:before {
+  content: '\e163';
+}
+
+/* line 180, Fabric.Icons.Output.scss */
+.ms-Icon--dashboard:before {
+  content: '\e164';
+}
+
+/* line 181, Fabric.Icons.Output.scss */
+.ms-Icon--mailEdit:before {
+  content: '\e165';
+}
+
+/* line 182, Fabric.Icons.Output.scss */
+.ms-Icon--pinLeft:before {
+  content: '\e167';
+}
+
+/* line 183, Fabric.Icons.Output.scss */
+.ms-Icon--heart:before {
+  content: '\e16a';
+}
+
+/* line 184, Fabric.Icons.Output.scss */
+.ms-Icon--heartEmpty:before {
+  content: '\e16b';
+}
+
+/* line 185, Fabric.Icons.Output.scss */
+.ms-Icon--picture:before {
+  content: '\e16c';
+}
+
+/* line 186, Fabric.Icons.Output.scss */
+.ms-Icon--cake:before {
+  content: '\e16d';
+}
+
+/* line 187, Fabric.Icons.Output.scss */
+.ms-Icon--books:before {
+  content: '\e16e';
+}
+
+/* line 188, Fabric.Icons.Output.scss */
+.ms-Icon--chart:before {
+  content: '\e16f';
+}
+
+/* line 189, Fabric.Icons.Output.scss */
+.ms-Icon--video:before {
+  content: '\e170';
+}
+
+/* line 190, Fabric.Icons.Output.scss */
+.ms-Icon--soccer:before {
+  content: '\e171';
+}
+
+/* line 191, Fabric.Icons.Output.scss */
+.ms-Icon--meal:before {
+  content: '\e172';
+}
+
+/* line 192, Fabric.Icons.Output.scss */
+.ms-Icon--balloon:before {
+  content: '\e173';
+}
+
+/* line 193, Fabric.Icons.Output.scss */
+.ms-Icon--cat:before {
+  content: '\e174';
+}
+
+/* line 194, Fabric.Icons.Output.scss */
+.ms-Icon--dog:before {
+  content: '\e175';
+}
+
+/* line 195, Fabric.Icons.Output.scss */
+.ms-Icon--bag:before {
+  content: '\e176';
+}
+
+/* line 196, Fabric.Icons.Output.scss */
+.ms-Icon--music:before {
+  content: '\e177';
+}
+
+/* line 197, Fabric.Icons.Output.scss */
+.ms-Icon--stopwatch:before {
+  content: '\e178';
+}
+
+/* line 198, Fabric.Icons.Output.scss */
+.ms-Icon--coffee:before {
+  content: '\e179';
+}
+
+/* line 199, Fabric.Icons.Output.scss */
+.ms-Icon--briefcase:before {
+  content: '\e17a';
+}
+
+/* line 200, Fabric.Icons.Output.scss */
+.ms-Icon--pill:before {
+  content: '\e17b';
+}
+
+/* line 201, Fabric.Icons.Output.scss */
+.ms-Icon--trophy:before {
+  content: '\e17c';
+}
+
+/* line 202, Fabric.Icons.Output.scss */
+.ms-Icon--firstAid:before {
+  content: '\e17d';
+}
+
+/* line 203, Fabric.Icons.Output.scss */
+.ms-Icon--plane:before {
+  content: '\e17e';
+}
+
+/* line 204, Fabric.Icons.Output.scss */
+.ms-Icon--page:before {
+  content: '\e17f';
+}
+
+/* line 205, Fabric.Icons.Output.scss */
+.ms-Icon--car:before {
+  content: '\e180';
+}
+
+/* line 206, Fabric.Icons.Output.scss */
+.ms-Icon--dogAlt:before {
+  content: '\e181';
+}
+
+/* line 207, Fabric.Icons.Output.scss */
+.ms-Icon--document:before {
+  content: '\e182';
+}
+
+/* line 208, Fabric.Icons.Output.scss */
+.ms-Icon--metadata:before {
+  content: '\e183';
+}
+
+/* line 209, Fabric.Icons.Output.scss */
+.ms-Icon--pointItem:before {
+  content: '\e184';
+}
+
+/* line 210, Fabric.Icons.Output.scss */
+.ms-Icon--text:before {
+  content: '\e185';
+}
+
+/* line 211, Fabric.Icons.Output.scss */
+.ms-Icon--fieldText:before {
+  content: '\e186';
+}
+
+/* line 212, Fabric.Icons.Output.scss */
+.ms-Icon--fieldNumber:before {
+  content: '\e187';
+}
+
+/* line 213, Fabric.Icons.Output.scss */
+.ms-Icon--dropdown:before {
+  content: '\e188';
+}
+
+/* line 214, Fabric.Icons.Output.scss */
+.ms-Icon--radioButton:before {
+  content: '\e189';
+}
+
+/* line 215, Fabric.Icons.Output.scss */
+.ms-Icon--checkbox:before {
+  content: '\e18a';
+}
+
+/* line 216, Fabric.Icons.Output.scss */
+.ms-Icon--story:before {
+  content: '\e18b';
+}
+
+/* line 217, Fabric.Icons.Output.scss */
+.ms-Icon--bold:before {
+  content: '\e18c';
+}
+
+/* line 218, Fabric.Icons.Output.scss */
+.ms-Icon--italic:before {
+  content: '\e18d';
+}
+
+/* line 219, Fabric.Icons.Output.scss */
+.ms-Icon--underline:before {
+  content: '\e18e';
+}
+
+/* line 220, Fabric.Icons.Output.scss */
+.ms-Icon--quote:before {
+  content: '\e18f';
+}
+
+/* line 221, Fabric.Icons.Output.scss */
+.ms-Icon--styleRemove:before {
+  content: '\e190';
+}
+
+/* line 222, Fabric.Icons.Output.scss */
+.ms-Icon--pictureAdd:before {
+  content: '\e191';
+}
+
+/* line 223, Fabric.Icons.Output.scss */
+.ms-Icon--pictureRemove:before {
+  content: '\e192';
+}
+
+/* line 224, Fabric.Icons.Output.scss */
+.ms-Icon--desktop:before {
+  content: '\e193';
+}
+
+/* line 225, Fabric.Icons.Output.scss */
+.ms-Icon--tablet:before {
+  content: '\e194';
+}
+
+/* line 226, Fabric.Icons.Output.scss */
+.ms-Icon--mobile:before {
+  content: '\e195';
+}
+
+/* line 227, Fabric.Icons.Output.scss */
+.ms-Icon--table:before {
+  content: '\e196';
+}
+
+/* line 228, Fabric.Icons.Output.scss */
+.ms-Icon--hide:before {
+  content: '\e197';
+}
+
+/* line 229, Fabric.Icons.Output.scss */
+.ms-Icon--shield:before {
+  content: '\e198';
+}
+
+/* line 230, Fabric.Icons.Output.scss */
+.ms-Icon--header:before {
+  content: '\e19a';
+}
+
+/* line 231, Fabric.Icons.Output.scss */
+.ms-Icon--paint:before {
+  content: '\e19b';
+}
+
+/* line 232, Fabric.Icons.Output.scss */
+.ms-Icon--support:before {
+  content: '\e19c';
+}
+
+/* line 233, Fabric.Icons.Output.scss */
+.ms-Icon--settings:before {
+  content: '\e19d';
+}
+
+/* line 234, Fabric.Icons.Output.scss */
+.ms-Icon--creditCard:before {
+  content: '\e19e';
+}
+
+/* line 235, Fabric.Icons.Output.scss */
+.ms-Icon--reload:before {
+  content: '\e19f';
+}
+
+/* line 236, Fabric.Icons.Output.scss */
+.ms-Icon--peopleSecurity:before {
+  content: '\e200';
+}
+
+/* line 237, Fabric.Icons.Output.scss */
+.ms-Icon--fieldTextBox:before {
+  content: '\e203';
+}
+
+/* line 238, Fabric.Icons.Output.scss */
+.ms-Icon--multiChoice:before {
+  content: '\e204';
+}
+
+/* line 239, Fabric.Icons.Output.scss */
+.ms-Icon--fieldMail:before {
+  content: '\e205';
+}
+
+/* line 240, Fabric.Icons.Output.scss */
+.ms-Icon--contactForm:before {
+  content: '\e206';
+}
+
+/* line 241, Fabric.Icons.Output.scss */
+.ms-Icon--circleHalfFilled:before {
+  content: '\e207';
+}
+
+/* line 242, Fabric.Icons.Output.scss */
+.ms-Icon--documentPDF:before {
+  content: '\e208';
+}
+
+/* line 243, Fabric.Icons.Output.scss */
+.ms-Icon--bookmark:before {
+  content: '\e209';
+}
+
+/* line 244, Fabric.Icons.Output.scss */
+.ms-Icon--circleUnfilled:before {
+  content: '\e20b';
+}
+
+/* line 245, Fabric.Icons.Output.scss */
+.ms-Icon--circleFilled:before {
+  content: '\e20c';
+}
+
+/* line 246, Fabric.Icons.Output.scss */
+.ms-Icon--textBox:before {
+  content: '\e20e';
+}
+
+/* line 247, Fabric.Icons.Output.scss */
+.ms-Icon--drop:before {
+  content: '\e20f';
+}
+
+/* line 248, Fabric.Icons.Output.scss */
+.ms-Icon--sun:before {
+  content: '\e210';
+}
+
+/* line 249, Fabric.Icons.Output.scss */
+.ms-Icon--lifesaver:before {
+  content: '\e211';
+}
+
+/* line 250, Fabric.Icons.Output.scss */
+.ms-Icon--lifesaverLock:before {
+  content: '\e212';
+}
+
+/* line 251, Fabric.Icons.Output.scss */
+.ms-Icon--mailUnread:before {
+  content: '\e213';
+}
+
+/* line 252, Fabric.Icons.Output.scss */
+.ms-Icon--mailRead:before {
+  content: '\e214';
+}
+
+/* line 253, Fabric.Icons.Output.scss */
+.ms-Icon--inboxCheck:before {
+  content: '\e215';
+}
+
+/* line 254, Fabric.Icons.Output.scss */
+.ms-Icon--folderSearch:before {
+  content: '\e216';
+}
+
+/* line 255, Fabric.Icons.Output.scss */
+.ms-Icon--collapse:before {
+  content: '\e217';
+}
+
+/* line 256, Fabric.Icons.Output.scss */
+.ms-Icon--expand:before {
+  content: '\e218';
+}
+
+/* line 257, Fabric.Icons.Output.scss */
+.ms-Icon--ascending:before {
+  content: '\e219';
+}
+
+/* line 258, Fabric.Icons.Output.scss */
+.ms-Icon--descending:before {
+  content: '\e21a';
+}
+
+/* line 259, Fabric.Icons.Output.scss */
+.ms-Icon--filterClear:before {
+  content: '\e21b';
+}
+
+/* line 260, Fabric.Icons.Output.scss */
+.ms-Icon--checkboxEmpty:before {
+  content: '\e21c';
+}
+
+/* line 261, Fabric.Icons.Output.scss */
+.ms-Icon--checkboxMixed:before {
+  content: '\e21d';
+}
+
+/* line 262, Fabric.Icons.Output.scss */
+.ms-Icon--boards:before {
+  content: '\e21e';
+}
+
+/* line 263, Fabric.Icons.Output.scss */
+.ms-Icon--checkboxCheck:before {
+  content: '\e21f';
+}
+
+/* line 264, Fabric.Icons.Output.scss */
+.ms-Icon--frowny:before {
+  content: '\e220';
+}
+
+/* line 265, Fabric.Icons.Output.scss */
+.ms-Icon--lightBulb:before {
+  content: '\e221';
+}
+
+/* line 266, Fabric.Icons.Output.scss */
+.ms-Icon--globe:before {
+  content: '\e222';
+}
+
+/* line 267, Fabric.Icons.Output.scss */
+.ms-Icon--deviceWipe:before {
+  content: '\e223';
+}
+
+/* line 268, Fabric.Icons.Output.scss */
+.ms-Icon--listCheck:before {
+  content: '\e226';
+}
+
+/* line 269, Fabric.Icons.Output.scss */
+.ms-Icon--listGroup:before {
+  content: '\e227';
+}
+
+/* line 270, Fabric.Icons.Output.scss */
+.ms-Icon--timeline:before {
+  content: '\e228';
+}
+
+/* line 271, Fabric.Icons.Output.scss */
+.ms-Icon--fontIncrease:before {
+  content: '\e229';
+}
+
+/* line 272, Fabric.Icons.Output.scss */
+.ms-Icon--fontDecrease:before {
+  content: '\e22a';
+}
+
+/* line 273, Fabric.Icons.Output.scss */
+.ms-Icon--fontColor:before {
+  content: '\e22b';
+}
+
+/* line 274, Fabric.Icons.Output.scss */
+.ms-Icon--mailCheck:before {
+  content: '\e22c';
+}
+
+/* line 275, Fabric.Icons.Output.scss */
+.ms-Icon--mailDown:before {
+  content: '\e22d';
+}
+
+/* line 276, Fabric.Icons.Output.scss */
+.ms-Icon--listCheckbox:before {
+  content: '\e22e';
+}
+
+/* line 277, Fabric.Icons.Output.scss */
+.ms-Icon--sunAdd:before {
+  content: '\e22f';
+}
+
+/* line 278, Fabric.Icons.Output.scss */
+.ms-Icon--sunQuestion:before {
+  content: '\e230';
+}
+
+/* line 279, Fabric.Icons.Output.scss */
+.ms-Icon--chevronThinUp:before {
+  content: '\e231';
+}
+
+/* line 280, Fabric.Icons.Output.scss */
+.ms-Icon--chevronThinDown:before {
+  content: '\e232';
+}
+
+/* line 281, Fabric.Icons.Output.scss */
+.ms-Icon--chevronThinLeft:before {
+  content: '\e233';
+}
+
+/* line 282, Fabric.Icons.Output.scss */
+.ms-Icon--chevronThinRight:before {
+  content: '\e234';
+}
+
+/* line 283, Fabric.Icons.Output.scss */
+.ms-Icon--chevronThickUp:before {
+  content: '\e235';
+}
+
+/* line 284, Fabric.Icons.Output.scss */
+.ms-Icon--chevronThickDown:before {
+  content: '\e236';
+}
+
+/* line 285, Fabric.Icons.Output.scss */
+.ms-Icon--chevronThickLeft:before {
+  content: '\e237';
+}
+
+/* line 286, Fabric.Icons.Output.scss */
+.ms-Icon--chevronThickRight:before {
+  content: '\e238';
+}
+
+/* line 287, Fabric.Icons.Output.scss */
+.ms-Icon--linkRemove:before {
+  content: '\e239';
+}
+
+/* line 288, Fabric.Icons.Output.scss */
+.ms-Icon--alertOutline:before {
+  content: '\e23b';
+}
+
+/* line 289, Fabric.Icons.Output.scss */
+.ms-Icon--documentLandscape:before {
+  content: '\e23c';
+}
+
+/* line 290, Fabric.Icons.Output.scss */
+.ms-Icon--documentAdd:before {
+  content: '\e23d';
+}
+
+/* line 291, Fabric.Icons.Output.scss */
+.ms-Icon--toggleMiddle:before {
+  content: '\e23e';
+}
+
+/* line 292, Fabric.Icons.Output.scss */
+.ms-Icon--embed:before {
+  content: '\e23f';
+}
+
+/* line 293, Fabric.Icons.Output.scss */
+.ms-Icon--listNumbered:before {
+  content: '\e240';
+}
+
+/* line 294, Fabric.Icons.Output.scss */
+.ms-Icon--peopleCheck:before {
+  content: '\e242';
+}
+
+/* line 295, Fabric.Icons.Output.scss */
+.ms-Icon--caretUpOutline:before {
+  content: '\e243';
+}
+
+/* line 296, Fabric.Icons.Output.scss */
+.ms-Icon--caretDownOutline:before {
+  content: '\e244';
+}
+
+/* line 297, Fabric.Icons.Output.scss */
+.ms-Icon--caretLeftOutline:before {
+  content: '\e245';
+}
+
+/* line 298, Fabric.Icons.Output.scss */
+.ms-Icon--caretRightOutline:before {
+  content: '\e246';
+}
+
+/* line 299, Fabric.Icons.Output.scss */
+.ms-Icon--mailSync:before {
+  content: '\e248';
+}
+
+/* line 300, Fabric.Icons.Output.scss */
+.ms-Icon--mailError:before {
+  content: '\e249';
+}
+
+/* line 301, Fabric.Icons.Output.scss */
+.ms-Icon--mailPause:before {
+  content: '\e24a';
+}
+
+/* line 302, Fabric.Icons.Output.scss */
+.ms-Icon--peopleSync:before {
+  content: '\e24b';
+}
+
+/* line 303, Fabric.Icons.Output.scss */
+.ms-Icon--peopleError:before {
+  content: '\e24c';
+}
+
+/* line 304, Fabric.Icons.Output.scss */
+.ms-Icon--peoplePause:before {
+  content: '\e24d';
+}
+
+/* line 305, Fabric.Icons.Output.scss */
+.ms-Icon--circleBall:before {
+  content: '\e24e';
+}
+
+/* line 306, Fabric.Icons.Output.scss */
+.ms-Icon--circleBalloons:before {
+  content: '\e24f';
+}
+
+/* line 307, Fabric.Icons.Output.scss */
+.ms-Icon--circleCar:before {
+  content: '\e250';
+}
+
+/* line 308, Fabric.Icons.Output.scss */
+.ms-Icon--circleCat:before {
+  content: '\e251';
+}
+
+/* line 309, Fabric.Icons.Output.scss */
+.ms-Icon--circleCoffee:before {
+  content: '\e252';
+}
+
+/* line 310, Fabric.Icons.Output.scss */
+.ms-Icon--circleDog:before {
+  content: '\e253';
+}
+
+/* line 311, Fabric.Icons.Output.scss */
+.ms-Icon--circleLightning:before {
+  content: '\e254';
+}
+
+/* line 312, Fabric.Icons.Output.scss */
+.ms-Icon--circlePill:before {
+  content: '\e255';
+}
+
+/* line 313, Fabric.Icons.Output.scss */
+.ms-Icon--circlePlane:before {
+  content: '\e256';
+}
+
+/* line 314, Fabric.Icons.Output.scss */
+.ms-Icon--circlePoodle:before {
+  content: '\e257';
+}
+
+/* line 315, Fabric.Icons.Output.scss */
+.ms-Icon--checkPeople:before {
+  content: '\e259';
+}
+
+/* line 316, Fabric.Icons.Output.scss */
+.ms-Icon--documentSearch:before {
+  content: '\e25a';
+}
+
+/* line 317, Fabric.Icons.Output.scss */
+.ms-Icon--sortLines:before {
+  content: '\e25c';
+}
+
+/* line 318, Fabric.Icons.Output.scss */
+.ms-Icon--calendarPublic:before {
+  content: '\e25d';
+}
+
+/* line 319, Fabric.Icons.Output.scss */
+.ms-Icon--contactPublic:before {
+  content: '\e25e';
+}
+
+/* line 320, Fabric.Icons.Output.scss */
+.ms-Icon--classNotebook:before {
+  content: '\e25f';
+}
+
+/* line 321, Fabric.Icons.Output.scss */
+.ms-Icon--triangleUp:before {
+  content: '\e260';
+}
+
+/* line 322, Fabric.Icons.Output.scss */
+.ms-Icon--triangleRight:before {
+  content: '\e261';
+}
+
+/* line 323, Fabric.Icons.Output.scss */
+.ms-Icon--triangleDown:before {
+  content: '\e262';
+}
+
+/* line 324, Fabric.Icons.Output.scss */
+.ms-Icon--triangleLeft:before {
+  content: '\e263';
+}
+
+/* line 325, Fabric.Icons.Output.scss */
+.ms-Icon--triangleEmptyUp:before {
+  content: '\e264';
+}
+
+/* line 326, Fabric.Icons.Output.scss */
+.ms-Icon--triangleEmptyRight:before {
+  content: '\e265';
+}
+
+/* line 327, Fabric.Icons.Output.scss */
+.ms-Icon--triangleEmptyDown:before {
+  content: '\e266';
+}
+
+/* line 328, Fabric.Icons.Output.scss */
+.ms-Icon--triangleEmptyLeft:before {
+  content: '\e267';
+}
+
+/* line 329, Fabric.Icons.Output.scss */
+.ms-Icon--filePDF:before {
+  content: '\e268';
+}
+
+/* line 330, Fabric.Icons.Output.scss */
+.ms-Icon--fileImage:before {
+  content: '\e26c';
+}
+
+/* line 331, Fabric.Icons.Output.scss */
+.ms-Icon--fileDocument:before {
+  content: '\e26d';
+}
+
+/* line 332, Fabric.Icons.Output.scss */
+.ms-Icon--listGroup2:before {
+  content: '\e26e';
+}
+
+/* line 333, Fabric.Icons.Output.scss */
+.ms-Icon--copy:before {
+  content: '\e26f';
+}
+
+/* line 334, Fabric.Icons.Output.scss */
+.ms-Icon--creditCardOutline:before {
+  content: '\e270';
+}
+
+/* line 335, Fabric.Icons.Output.scss */
+.ms-Icon--mailPublic:before {
+  content: '\e272';
+}
+
+/* line 336, Fabric.Icons.Output.scss */
+.ms-Icon--folderPublic:before {
+  content: '\e273';
+}
+
+/* line 337, Fabric.Icons.Output.scss */
+.ms-Icon--teamwork:before {
+  content: '\e274';
+}
+
+/* line 338, Fabric.Icons.Output.scss */
+.ms-Icon--move:before {
+  content: '\e275';
+}
+
+/* line 339, Fabric.Icons.Output.scss */
+.ms-Icon--classroom:before {
+  content: '\e276';
+}
+
+/* line 340, Fabric.Icons.Output.scss */
+.ms-Icon--menu2:before {
+  content: '\e277';
+}
+
+/* line 341, Fabric.Icons.Output.scss */
+.ms-Icon--plus2:before {
+  content: '\e278';
+}
+
+/* line 342, Fabric.Icons.Output.scss */
+.ms-Icon--tag:before {
+  content: '\e279';
+}
+
+/* line 343, Fabric.Icons.Output.scss */
+.ms-Icon--arrowUp2:before {
+  content: '\e27a';
+}
+
+/* line 344, Fabric.Icons.Output.scss */
+.ms-Icon--arrowDown2:before {
+  content: '\e27b';
+}
+
+/* line 345, Fabric.Icons.Output.scss */
+.ms-Icon--circlePlus:before {
+  content: '\e27c';
+}
+
+/* line 346, Fabric.Icons.Output.scss */
+.ms-Icon--circleInfo:before {
+  content: '\e27d';
+}
+
+/* line 347, Fabric.Icons.Output.scss */
+.ms-Icon--section:before {
+  content: '\e27e';
+}
+
+/* line 348, Fabric.Icons.Output.scss */
+.ms-Icon--sections:before {
+  content: '\e27f';
+}
+
+/* line 349, Fabric.Icons.Output.scss */
+.ms-Icon--at:before {
+  content: '\e282';
+}
+
+/* line 350, Fabric.Icons.Output.scss */
+.ms-Icon--arrowUpRight:before {
+  content: '\e283';
+}
+
+/* line 351, Fabric.Icons.Output.scss */
+.ms-Icon--arrowDownRight:before {
+  content: '\e284';
+}
+
+/* line 352, Fabric.Icons.Output.scss */
+.ms-Icon--arrowDownLeft:before {
+  content: '\e285';
+}
+
+/* line 353, Fabric.Icons.Output.scss */
+.ms-Icon--arrowUpLeft:before {
+  content: '\e286';
+}
+
+/* line 354, Fabric.Icons.Output.scss */
+.ms-Icon--bundle:before {
+  content: '\e287';
+}
+
+/* line 355, Fabric.Icons.Output.scss */
+.ms-Icon--pictureEdit:before {
+  content: '\e288';
+}
+
+/* line 356, Fabric.Icons.Output.scss */
+.ms-Icon--protectionCenter:before {
+  content: '\e289';
+}
+
+/* line 357, Fabric.Icons.Output.scss */
+.ms-Icon--alert2:before {
+  content: '\e28a';
+}
+
+/* line 361, Fabric.Icons.Output.scss */
+.ms-Icon--circle {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.5em 0 0;
+  padding: 0;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 373, _Fabric.Icons.scss */
+.ms-Icon--circle:before, .ms-Icon--circle:after {
+  line-height: 1;
+  font-size: inherit;
+}
+/* line 378, _Fabric.Icons.scss */
+.ms-Icon--circle:before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  position: absolute;
+}
+/* line 388, _Fabric.Icons.scss */
+.ms-Icon--circle:after {
+  content: '\e000';
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  z-index: 0;
+}
+
+/* line 367, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--star:before {
+  top: -2%;
+  left: 1%;
+}
+/* line 371, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--person:before {
+  top: -2%;
+  left: -3%;
+}
+/* line 375, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--alert:before {
+  top: -4%;
+}
+/* line 378, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--mailOpen:before {
+  top: -5%;
+}
+/* line 381, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--people:before {
+  top: -4%;
+  left: -7%;
+}
+/* line 385, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--bell:before {
+  top: -3%;
+}
+/* line 388, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--scheduling:before {
+  top: -3%;
+  left: 6%;
+}
+/* line 392, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--documents:before {
+  top: -1%;
+  left: -2%;
+}
+/* line 396, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--listBullets:before {
+  top: -1%;
+  left: 5%;
+}
+/* line 400, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--panel:before {
+  left: -2%;
+}
+/* line 403, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--popout:before {
+  top: -2%;
+  left: -2%;
+}
+/* line 407, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--home:before {
+  top: -4%;
+}
+/* line 410, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--favorites:before {
+  top: -2%;
+  left: 2%;
+}
+/* line 414, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--phone:before {
+  top: -2%;
+  left: -2%;
+}
+/* line 418, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--mailSend:before {
+  left: -10%;
+}
+/* line 421, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--pencil:before {
+  top: -2%;
+  left: 3%;
+}
+/* line 425, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--flag:before {
+  left: 3%;
+}
+/* line 428, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--miniatures:before {
+  left: -3%;
+}
+/* line 431, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--voicemail:before {
+  top: 2%;
+  left: -7%;
+}
+/* line 435, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--onlineAdd:before {
+  top: -1%;
+  left: 2%;
+}
+/* line 439, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--pinDown:before {
+  top: 5%;
+}
+/* line 442, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--gear:before {
+  left: 2%;
+}
+/* line 445, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--check:before {
+  top: 3%;
+}
+/* line 448, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--ellipsis:before {
+  top: 2%;
+  left: -12%;
+}
+/* line 452, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--directions:before {
+  left: 10%;
+}
+/* line 455, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--microphone:before {
+  top: -3%;
+}
+/* line 458, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretDown:before {
+  top: 5%;
+  left: 2%;
+}
+/* line 462, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretLeft:before {
+  left: -6%;
+}
+/* line 465, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretRight:before {
+  left: 6%;
+}
+/* line 468, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretUpLeft:before {
+  top: 5%;
+  left: 5%;
+}
+/* line 472, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretUpRight:before {
+  top: 5%;
+  left: -3%;
+}
+/* line 476, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretDownRight:before {
+  left: -3%;
+}
+/* line 479, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretDownLeft:before {
+  left: 4%;
+}
+/* line 482, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--note:before {
+  top: 2%;
+  left: -3%;
+}
+/* line 486, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--noteReply:before {
+  top: 6%;
+  left: 3%;
+}
+/* line 490, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--noteForward:before {
+  top: 6%;
+}
+/* line 493, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--key:before {
+  top: 5%;
+  left: 1%;
+}
+/* line 497, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--tile:before {
+  top: -1%;
+  left: -18%;
+}
+/* line 501, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--taskRecurring:before {
+  top: 2%;
+  left: -1%;
+}
+/* line 505, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--starEmpty:before {
+  top: -4%;
+  left: 1%;
+}
+/* line 509, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--documentReply:before {
+  top: -2%;
+  left: 7%;
+}
+/* line 513, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--documentForward:before {
+  left: 5%;
+}
+/* line 516, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--partner:before {
+  top: -2%;
+}
+/* line 519, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--reactivate:before {
+  top: -2%;
+  left: 6%;
+}
+/* line 523, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--sort:before {
+  left: -19%;
+}
+/* line 526, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--personAdd:before {
+  top: -2%;
+  left: 6%;
+}
+/* line 530, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--chevronDown:before {
+  top: 4%;
+}
+/* line 533, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--chevronLeft:before {
+  left: -5%;
+}
+/* line 536, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--chevronRight:before {
+  left: 4%;
+}
+/* line 539, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--peopleAdd:before {
+  top: -5%;
+  left: -12%;
+}
+/* line 543, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--newsfeed:before {
+  left: -4%;
+}
+/* line 546, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--notebook:before {
+  left: -4%;
+}
+/* line 549, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--link:before {
+  top: 2%;
+  left: -18%;
+}
+/* line 553, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--chevronsDown:before {
+  top: 5%;
+}
+/* line 556, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--chevronsLeft:before {
+  left: -5%;
+}
+/* line 559, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--chevronsRight:before {
+  left: 4%;
+}
+/* line 562, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--personRemove:before {
+  left: 5%;
+}
+/* line 565, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--receiptForward:before {
+  left: -20%;
+}
+/* line 568, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--receiptReply:before {
+  left: -20%;
+}
+/* line 571, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--receiptCheck:before {
+  left: -20%;
+}
+/* line 574, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--peopleRemove:before {
+  top: -3%;
+  left: -12%;
+}
+/* line 578, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--merge:before {
+  top: 2%;
+}
+/* line 581, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--split:before {
+  top: 2%;
+}
+/* line 584, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--eventCancel:before {
+  left: -2%;
+}
+/* line 587, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--today:before {
+  top: -2%;
+}
+/* line 590, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--oofReply:before {
+  left: 5%;
+}
+/* line 593, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--voicemailReply:before {
+  top: 4%;
+  left: -25%;
+}
+/* line 597, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--voicemailForward:before {
+  top: 4%;
+  left: -20%;
+}
+/* line 601, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--eye:before {
+  top: -4%;
+}
+/* line 604, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--post:before {
+  top: -4%;
+  left: 4%;
+}
+/* line 608, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--fax:before {
+  top: -3%;
+  left: -2%;
+}
+/* line 612, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--lightning:before {
+  top: 2%;
+  left: 1%;
+}
+/* line 616, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--filter:before {
+  top: 7%;
+}
+/* line 619, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--cart:before {
+  left: 3%;
+}
+/* line 622, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--socialListening:before {
+  top: 2%;
+}
+/* line 625, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--mapMarker:before {
+  top: 2%;
+}
+/* line 628, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--replyAllAlt:before {
+  left: -16%;
+}
+/* line 631, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--group:before {
+  left: -33%;
+}
+/* line 634, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--money:before {
+  left: -8%;
+}
+/* line 637, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--noteEdit:before {
+  left: 4%;
+}
+/* line 640, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--mailEdit:before {
+  top: 3%;
+  left: 7%;
+}
+/* line 644, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--pinLeft:before {
+  left: -6%;
+}
+/* line 647, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--heart:before {
+  top: 5%;
+}
+/* line 650, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--heartEmpty:before {
+  top: 5%;
+}
+/* line 653, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--cake:before {
+  top: -5%;
+}
+/* line 656, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--books:before {
+  left: -8%;
+}
+/* line 659, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--video:before {
+  top: -3%;
+  left: 3%;
+}
+/* line 663, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--balloon:before {
+  top: 4%;
+  left: -1%;
+}
+/* line 667, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--music:before {
+  top: -2%;
+  left: -5%;
+}
+/* line 671, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--stopwatch:before {
+  top: -3%;
+  left: 3%;
+}
+/* line 675, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--coffee:before {
+  top: -3%;
+  left: 3%;
+}
+/* line 679, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--plane:before {
+  left: 4%;
+}
+/* line 682, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--dogAlt:before {
+  left: -15%;
+}
+/* line 685, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--metadata:before {
+  top: -4%;
+  left: 4%;
+}
+/* line 689, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--text:before {
+  top: -4%;
+  left: 10%;
+}
+/* line 693, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--fieldText:before {
+  left: -14%;
+}
+/* line 696, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--fieldNumber:before {
+  left: -14%;
+}
+/* line 699, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--dropdown:before {
+  left: -14%;
+}
+/* line 702, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--story:before {
+  left: -5%;
+}
+/* line 705, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--bold:before {
+  left: 4%;
+}
+/* line 708, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--underline:before {
+  top: 4%;
+}
+/* line 711, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--quote:before {
+  left: -4%;
+}
+/* line 714, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--styleRemove:before {
+  top: 4%;
+  left: 5%;
+}
+/* line 718, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--pictureAdd:before {
+  left: -6%;
+}
+/* line 721, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--pictureRemove:before {
+  left: -6%;
+}
+/* line 724, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--mobile:before {
+  left: -3%;
+}
+/* line 727, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--hide:before {
+  top: -4%;
+}
+/* line 730, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--header:before {
+  left: -9%;
+}
+/* line 733, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--msn:before {
+  left: 3%;
+}
+/* line 736, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--peopleCheck:before {
+  left: -7%;
+  top: -3%;
+}
+/* line 740, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretDownOutline:before {
+  top: 6%;
+}
+/* line 743, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretLeftOutline:before {
+  left: -5%;
+}
+/* line 746, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--caretRightOutline:before {
+  left: 5%;
+}
+/* line 749, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--sway:before {
+  left: -3%;
+}
+/* line 752, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--mailSync:before {
+  left: 8%;
+  top: 3%;
+}
+/* line 756, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--peopleSync:before {
+  left: -8%;
+}
+/* line 759, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--peopleError:before {
+  left: -8%;
+}
+/* line 762, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--peoplePause:before {
+  left: -8%;
+}
+/* line 765, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--documentSearch:before {
+  left: 8%;
+}
+/* line 768, Fabric.Icons.Output.scss */
+.ms-Icon--circle.ms-Icon--dynamicsMarketing:before {
+  left: -8%;
+}
+
+/* line 15, Fabric.Animations.Output.scss */
+.ms-u-slideRightIn40 {
+  -webkit-animation-name: fadeIn, slideRightIn40;
+  -ms-animation-name: fadeIn, slideRightIn40;
+  animation-name: fadeIn, slideRightIn40;
+  -webkit-animation-duration: 0.367s;
+  -moz-animation-duration: 0.367s;
+  -ms-animation-duration: 0.367s;
+  -o-animation-duration: 0.367s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideRightIn40 {
+  from {
+    -webkit-transform: translate3d(-40px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes slideRightIn40 {
+  from {
+    -webkit-transform: translate3d(-40px, 0px, 0px);
+            transform: translate3d(-40px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+/* line 28, Fabric.Animations.Output.scss */
+.ms-u-slideLeftIn40 {
+  -webkit-animation-name: fadeIn, slideLeftIn40;
+  -ms-animation-name: fadeIn, slideLeftIn40;
+  animation-name: fadeIn, slideLeftIn40;
+  -webkit-animation-duration: 0.367s;
+  -moz-animation-duration: 0.367s;
+  -ms-animation-duration: 0.367s;
+  -o-animation-duration: 0.367s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideLeftIn40 {
+  from {
+    -webkit-transform: translate3d(40px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes slideLeftIn40 {
+  from {
+    -webkit-transform: translate3d(40px, 0px, 0px);
+            transform: translate3d(40px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+/* line 41, Fabric.Animations.Output.scss */
+.ms-u-slideRightIn400 {
+  -webkit-animation-name: fadeIn, slideRightIn400;
+  -ms-animation-name: fadeIn, slideRightIn400;
+  animation-name: fadeIn, slideRightIn400;
+  -webkit-animation-duration: 0.367s;
+  -moz-animation-duration: 0.367s;
+  -ms-animation-duration: 0.367s;
+  -o-animation-duration: 0.367s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideRightIn400 {
+  from {
+    -webkit-transform: translate3d(-400px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes slideRightIn400 {
+  from {
+    -webkit-transform: translate3d(-400px, 0px, 0px);
+            transform: translate3d(-400px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+/* line 54, Fabric.Animations.Output.scss */
+.ms-u-slideLeftIn400 {
+  -webkit-animation-name: fadeIn, slideLeft400;
+  -ms-animation-name: fadeIn, slideLeft400;
+  animation-name: fadeIn, slideLeft400;
+  -webkit-animation-duration: 0.367s;
+  -moz-animation-duration: 0.367s;
+  -ms-animation-duration: 0.367s;
+  -o-animation-duration: 0.367s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideLeft400 {
+  from {
+    -webkit-transform: translate3d(400px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes slideLeft400 {
+  from {
+    -webkit-transform: translate3d(400px, 0px, 0px);
+            transform: translate3d(400px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+/* line 67, Fabric.Animations.Output.scss */
+.ms-u-slideUpIn20 {
+  -webkit-animation-name: fadeIn, slideUpIn20;
+  -ms-animation-name: fadeIn, slideUpIn20;
+  animation-name: fadeIn, slideUpIn20;
+  -webkit-animation-duration: 0.367s;
+  -moz-animation-duration: 0.367s;
+  -ms-animation-duration: 0.367s;
+  -o-animation-duration: 0.367s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideUpIn20 {
+  from {
+    -webkit-transform: translate3d(0px, 20px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes slideUpIn20 {
+  from {
+    -webkit-transform: translate3d(0px, 20px, 0px);
+            transform: translate3d(0px, 20px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+/* line 80, Fabric.Animations.Output.scss */
+.ms-u-slideUpIn10 {
+  -webkit-animation-name: fadeIn, slideUpIn10;
+  -ms-animation-name: fadeIn, slideUpIn10;
+  animation-name: fadeIn, slideUpIn10;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideUpIn10 {
+  from {
+    -webkit-transform: translate3d(0px, 10px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes slideUpIn10 {
+  from {
+    -webkit-transform: translate3d(0px, 10px, 0px);
+            transform: translate3d(0px, 10px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+/* line 93, Fabric.Animations.Output.scss */
+.ms-u-slideDownIn20 {
+  -webkit-animation-name: fadeIn, slideDownIn20;
+  -ms-animation-name: fadeIn, slideDownIn20;
+  animation-name: fadeIn, slideDownIn20;
+  -webkit-animation-duration: 0.367s;
+  -moz-animation-duration: 0.367s;
+  -ms-animation-duration: 0.367s;
+  -o-animation-duration: 0.367s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideDownIn20 {
+  from {
+    -webkit-transform: translate3d(0px, -20px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes slideDownIn20 {
+  from {
+    -webkit-transform: translate3d(0px, -20px, 0px);
+            transform: translate3d(0px, -20px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+/* line 106, Fabric.Animations.Output.scss */
+.ms-u-slideDownIn10 {
+  -webkit-animation-name: fadeIn, slideDownIn10;
+  -ms-animation-name: fadeIn, slideDownIn10;
+  animation-name: fadeIn, slideDownIn10;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideDownIn10 {
+  from {
+    -webkit-transform: translate3d(0px, -10px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes slideDownIn10 {
+  from {
+    -webkit-transform: translate3d(0px, -10px, 0px);
+            transform: translate3d(0px, -10px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
+/* line 119, Fabric.Animations.Output.scss */
+.ms-u-slideRightOut40 {
+  -webkit-animation-name: fadeOut, slideRightOut40;
+  -ms-animation-name: fadeOut, slideRightOut40;
+  animation-name: fadeOut, slideRightOut40;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideRightOut40 {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(40px, 0px, 0px);
+  }
+}
+@keyframes slideRightOut40 {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(40px, 0px, 0px);
+            transform: translate3d(40px, 0px, 0px);
+  }
+}
+/* line 132, Fabric.Animations.Output.scss */
+.ms-u-slideLeftOut40 {
+  -webkit-animation-name: fadeOut, slideLeftOut40;
+  -ms-animation-name: fadeOut, slideLeftOut40;
+  animation-name: fadeOut, slideLeftOut40;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideLeftOut40 {
+  from {
+    -webkit-transform: translate3d(0, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(-40px, 0px, 0px);
+  }
+}
+@keyframes slideLeftOut40 {
+  from {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(-40px, 0px, 0px);
+            transform: translate3d(-40px, 0px, 0px);
+  }
+}
+/* line 145, Fabric.Animations.Output.scss */
+.ms-u-slideRightOut400 {
+  -webkit-animation-name: fadeOut, slideRightOut400;
+  -ms-animation-name: fadeOut, slideRightOut400;
+  animation-name: fadeOut, slideRightOut400;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideRightOut400 {
+  from {
+    -webkit-transform: translate3d(0, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(400px, 0px, 0px);
+  }
+}
+@keyframes slideRightOut400 {
+  from {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(400px, 0px, 0px);
+            transform: translate3d(400px, 0px, 0px);
+  }
+}
+/* line 158, Fabric.Animations.Output.scss */
+.ms-u-slideLeftOut400 {
+  -webkit-animation-name: fadeOut, slideLeftOut400;
+  -ms-animation-name: fadeOut, slideLeftOut400;
+  animation-name: fadeOut, slideLeftOut400;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideLeftOut400 {
+  from {
+    -webkit-transform: translate3d(0, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(-400px, 0px, 0px);
+  }
+}
+@keyframes slideLeftOut400 {
+  from {
+    -webkit-transform: translate3d(0, 0px, 0px);
+            transform: translate3d(0, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(-400px, 0px, 0px);
+            transform: translate3d(-400px, 0px, 0px);
+  }
+}
+/* line 171, Fabric.Animations.Output.scss */
+.ms-u-slideUpOut20 {
+  -webkit-animation-name: fadeOut, slideUpOut20;
+  -ms-animation-name: fadeOut, slideUpOut20;
+  animation-name: fadeOut, slideUpOut20;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideUpOut20 {
+  from {
+    -webkit-transform: translate3d(0px, 0, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, -20px, 0px);
+  }
+}
+@keyframes slideUpOut20 {
+  from {
+    -webkit-transform: translate3d(0px, 0, 0px);
+            transform: translate3d(0px, 0, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, -20px, 0px);
+            transform: translate3d(0px, -20px, 0px);
+  }
+}
+/* line 184, Fabric.Animations.Output.scss */
+.ms-u-slideUpOut10 {
+  -webkit-animation-name: fadeOut, slideUpOut10;
+  -ms-animation-name: fadeOut, slideUpOut10;
+  animation-name: fadeOut, slideUpOut10;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideUpOut10 {
+  from {
+    -webkit-transform: translate3d(0px, 0, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, -10px, 0px);
+  }
+}
+@keyframes slideUpOut10 {
+  from {
+    -webkit-transform: translate3d(0px, 0, 0px);
+            transform: translate3d(0px, 0, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, -10px, 0px);
+            transform: translate3d(0px, -10px, 0px);
+  }
+}
+/* line 197, Fabric.Animations.Output.scss */
+.ms-u-slideDownOut20 {
+  -webkit-animation-name: fadeOut, slideDownOut20;
+  -ms-animation-name: fadeOut, slideDownOut20;
+  animation-name: fadeOut, slideDownOut20;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideDownOut20 {
+  from {
+    -webkit-transform: translate3d(0px, 0, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 20px, 0px);
+  }
+}
+@keyframes slideDownOut20 {
+  from {
+    -webkit-transform: translate3d(0px, 0, 0px);
+            transform: translate3d(0px, 0, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 20px, 0px);
+            transform: translate3d(0px, 20px, 0px);
+  }
+}
+/* line 210, Fabric.Animations.Output.scss */
+.ms-u-slideDownOut10 {
+  -webkit-animation-name: fadeOut, slideDownOut10;
+  -ms-animation-name: fadeOut, slideDownOut10;
+  animation-name: fadeOut, slideDownOut10;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideDownOut10 {
+  from {
+    -webkit-transform: translate3d(0px, 0, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 10px, 0px);
+  }
+}
+@keyframes slideDownOut10 {
+  from {
+    -webkit-transform: translate3d(0px, 0, 0px);
+            transform: translate3d(0px, 0, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 10px, 0px);
+            transform: translate3d(0px, 10px, 0px);
+  }
+}
+/* line 223, Fabric.Animations.Output.scss */
+.ms-u-scaleUpIn100 {
+  -webkit-animation-name: fadeIn, scaleUp100;
+  -ms-animation-name: fadeIn, scaleUp100;
+  animation-name: fadeIn, scaleUp100;
+  -webkit-animation-duration: 0.367s;
+  -moz-animation-duration: 0.367s;
+  -ms-animation-duration: 0.367s;
+  -o-animation-duration: 0.367s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes scaleUp100 {
+  from {
+    -webkit-transform: scale3d(0.98, 0.98, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes scaleUp100 {
+  from {
+    -webkit-transform: scale3d(0.98, 0.98, 1);
+            transform: scale3d(0.98, 0.98, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+/* line 236, Fabric.Animations.Output.scss */
+.ms-u-scaleDownIn100 {
+  -webkit-animation-name: fadeIn, scaleDown100;
+  -ms-animation-name: fadeIn, scaleDown100;
+  animation-name: fadeIn, scaleDown100;
+  -webkit-animation-duration: 0.367s;
+  -moz-animation-duration: 0.367s;
+  -ms-animation-duration: 0.367s;
+  -o-animation-duration: 0.367s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes scaleDown100 {
+  from {
+    -webkit-transform: scale3d(1.03, 1.03, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes scaleDown100 {
+  from {
+    -webkit-transform: scale3d(1.03, 1.03, 1);
+            transform: scale3d(1.03, 1.03, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+/* line 249, Fabric.Animations.Output.scss */
+.ms-u-scaleUpOut103 {
+  -webkit-animation-name: fadeOut, scaleUp103;
+  -ms-animation-name: fadeOut, scaleUp103;
+  animation-name: fadeOut, scaleUp103;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes scaleUp103 {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1.03, 1.03, 1);
+  }
+}
+@keyframes scaleUp103 {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1.03, 1.03, 1);
+            transform: scale3d(1.03, 1.03, 1);
+  }
+}
+/* line 262, Fabric.Animations.Output.scss */
+.ms-u-scaleDownOut98 {
+  -webkit-animation-name: fadeOut, scaleDown98;
+  -ms-animation-name: fadeOut, scaleDown98;
+  animation-name: fadeOut, scaleDown98;
+  -webkit-animation-duration: 0.167s;
+  -moz-animation-duration: 0.167s;
+  -ms-animation-duration: 0.167s;
+  -o-animation-duration: 0.167s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes scaleDown98 {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+  to {
+    -webkit-transform: scale3d(0.98, 0.98, 1);
+  }
+}
+@keyframes scaleDown98 {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  to {
+    -webkit-transform: scale3d(0.98, 0.98, 1);
+            transform: scale3d(0.98, 0.98, 1);
+  }
+}
+/* line 275, Fabric.Animations.Output.scss */
+.ms-u-fadeIn400 {
+  -webkit-animation-duration: 0.367s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.367s;
+          animation-duration: 0.367s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+/* line 278, Fabric.Animations.Output.scss */
+.ms-u-fadeIn100 {
+  -webkit-animation-duration: 0.367s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.367s;
+          animation-duration: 0.367s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.167s;
+  animation-duration: 0.167s;
+}
+
+/* line 281, Fabric.Animations.Output.scss */
+.ms-u-fadeIn200 {
+  -webkit-animation-duration: 0.367s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.367s;
+          animation-duration: 0.367s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.267s;
+  animation-duration: 0.267s;
+}
+
+/* line 284, Fabric.Animations.Output.scss */
+.ms-u-fadeIn500 {
+  -webkit-animation-duration: 0.367s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.367s;
+          animation-duration: 0.367s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.467s;
+  animation-duration: 0.467s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+            animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 297, Fabric.Animations.Output.scss */
+.ms-u-fadeOut400 {
+  -webkit-animation-duration: 0.367s;
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.367s;
+          animation-duration: 0.367s;
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+/* line 300, Fabric.Animations.Output.scss */
+.ms-u-fadeOut100 {
+  -webkit-animation-duration: 0.367s;
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.367s;
+          animation-duration: 0.367s;
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+}
+
+/* line 303, Fabric.Animations.Output.scss */
+.ms-u-fadeOut200 {
+  -webkit-animation-duration: 0.367s;
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.367s;
+          animation-duration: 0.367s;
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.167s;
+  animation-duration: 0.167s;
+}
+
+/* line 306, Fabric.Animations.Output.scss */
+.ms-u-fadeOut500 {
+  -webkit-animation-duration: 0.367s;
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.367s;
+          animation-duration: 0.367s;
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.467s;
+  animation-duration: 0.467s;
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+            animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* line 319, Fabric.Animations.Output.scss */
+.ms-u-rotate90deg {
+  -webkit-animation-name: rotate90;
+  -ms-animation-name: rotate90;
+  animation-name: rotate90;
+  -webkit-animation-duration: 0.1s;
+  -moz-animation-duration: 0.1s;
+  -ms-animation-duration: 0.1s;
+  -o-animation-duration: 0.1s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes rotate90 {
+  from {
+    -webkit-transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(90deg);
+  }
+}
+@keyframes rotate90 {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(90deg);
+            transform: rotateZ(90deg);
+  }
+}
+/* line 332, Fabric.Animations.Output.scss */
+.ms-u-rotateN90deg {
+  -webkit-animation-name: rotateN90;
+  -ms-animation-name: rotateN90;
+  animation-name: rotateN90;
+  -webkit-animation-duration: 0.1s;
+  -moz-animation-duration: 0.1s;
+  -ms-animation-duration: 0.1s;
+  -o-animation-duration: 0.1s;
+  -webkit-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -ms-animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes rotateN90 {
+  from {
+    -webkit-transform: rotateZ(90deg);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg);
+  }
+}
+@keyframes rotateN90 {
+  from {
+    -webkit-transform: rotateZ(90deg);
+            transform: rotateZ(90deg);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+/* line 345, Fabric.Animations.Output.scss */
+.ms-u-expandCollapse400 {
+  -webkit-transition: height 0.367s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  transition: height 0.367s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+}
+
+/* line 350, Fabric.Animations.Output.scss */
+.ms-u-expandCollapse200 {
+  -webkit-transition: height 0.167s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  transition: height 0.167s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+}
+
+/* line 355, Fabric.Animations.Output.scss */
+.ms-u-expandCollapse100 {
+  -webkit-transition: height 0.1s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  transition: height 0.1s cubic-bezier(0.1, 0.25, 0.75, 0.9);
+}
+
+/* line 360, Fabric.Animations.Output.scss */
+.ms-u-delay100 {
+  -webkit-animation-delay: 0.167s;
+  animation-delay: 0.167s;
+}
+
+/* line 365, Fabric.Animations.Output.scss */
+.ms-u-delay200 {
+  -webkit-animation-delay: 0.267s;
+  animation-delay: 0.267s;
+}
+
+@media (max-width: 479px) {
+  /* line 16, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenSm,
+  .ms-u-hiddenMdDown,
+  .ms-u-hiddenLgDown,
+  .ms-u-hiddenXlDown,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 639px) {
+  /* line 27, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMd,
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenMdDown,
+  .ms-u-hiddenLgDown,
+  .ms-u-hiddenXlDown,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  /* line 39, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenLg,
+  .ms-u-hiddenLgUp,
+  .ms-u-hiddenLgDown,
+  .ms-u-hiddenXlDown,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  /* line 51, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenLgUp,
+  .ms-u-hiddenXl,
+  .ms-u-hiddenXlUp,
+  .ms-u-hiddenXlDown,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1919px) {
+  /* line 63, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenLgUp,
+  .ms-u-hiddenXlUp,
+  .ms-u-hiddenXxl,
+  .ms-u-hiddenXxlUp,
+  .ms-u-hiddenXxlDown {
+    display: none !important;
+  }
+}
+@media (min-width: 1920px) {
+  /* line 75, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-hiddenMdUp,
+  .ms-u-hiddenLgUp,
+  .ms-u-hiddenXlUp,
+  .ms-u-hiddenXxlUp,
+  .ms-u-hiddenXxxl {
+    display: none !important;
+  }
+}
+/* line 91, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm12 {
+  width: 100%;
+}
+
+/* line 94, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm11 {
+  width: 91.66666666666666%;
+}
+
+/* line 97, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm10 {
+  width: 83.33333333333334%;
+}
+
+/* line 100, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm9 {
+  width: 75%;
+}
+
+/* line 103, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm8 {
+  width: 66.66666666666666%;
+}
+
+/* line 106, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm7 {
+  width: 58.333333333333336%;
+}
+
+/* line 109, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm6 {
+  width: 50%;
+}
+
+/* line 112, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm5 {
+  width: 41.66666666666667%;
+}
+
+/* line 115, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm4 {
+  width: 33.33333333333333%;
+}
+
+/* line 118, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm3 {
+  width: 25%;
+}
+
+/* line 121, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm2 {
+  width: 16.666666666666664%;
+}
+
+/* line 124, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-sm1 {
+  width: 8.333333333333332%;
+}
+
+/* line 127, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull12 {
+  right: 100%;
+}
+
+/* line 130, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull11 {
+  right: 91.66666666666666%;
+}
+
+/* line 133, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull10 {
+  right: 83.33333333333334%;
+}
+
+/* line 136, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull9 {
+  right: 75%;
+}
+
+/* line 139, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull8 {
+  right: 66.66666666666666%;
+}
+
+/* line 142, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull7 {
+  right: 58.333333333333336%;
+}
+
+/* line 145, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull6 {
+  right: 50%;
+}
+
+/* line 148, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull5 {
+  right: 41.66666666666667%;
+}
+
+/* line 151, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull4 {
+  right: 33.33333333333333%;
+}
+
+/* line 154, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull3 {
+  right: 25%;
+}
+
+/* line 157, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull2 {
+  right: 16.666666666666664%;
+}
+
+/* line 160, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull1 {
+  right: 8.333333333333332%;
+}
+
+/* line 163, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPull0 {
+  right: auto;
+}
+
+/* line 166, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush12 {
+  left: 100%;
+}
+
+/* line 169, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush11 {
+  left: 91.66666666666666%;
+}
+
+/* line 172, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush10 {
+  left: 83.33333333333334%;
+}
+
+/* line 175, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush9 {
+  left: 75%;
+}
+
+/* line 178, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush8 {
+  left: 66.66666666666666%;
+}
+
+/* line 181, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush7 {
+  left: 58.333333333333336%;
+}
+
+/* line 184, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush6 {
+  left: 50%;
+}
+
+/* line 187, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush5 {
+  left: 41.66666666666667%;
+}
+
+/* line 190, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush4 {
+  left: 33.33333333333333%;
+}
+
+/* line 193, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush3 {
+  left: 25%;
+}
+
+/* line 196, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush2 {
+  left: 16.666666666666664%;
+}
+
+/* line 199, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush1 {
+  left: 8.333333333333332%;
+}
+
+/* line 202, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smPush0 {
+  left: auto;
+}
+
+/* line 207, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset11 {
+  margin-left: 91.66666666666666%;
+}
+
+/* line 210, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset10 {
+  margin-left: 83.33333333333334%;
+}
+
+/* line 213, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset9 {
+  margin-left: 75%;
+}
+
+/* line 216, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset8 {
+  margin-left: 66.66666666666666%;
+}
+
+/* line 219, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset7 {
+  margin-left: 58.333333333333336%;
+}
+
+/* line 222, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset6 {
+  margin-left: 50%;
+}
+
+/* line 225, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset5 {
+  margin-left: 41.66666666666667%;
+}
+
+/* line 228, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset4 {
+  margin-left: 33.33333333333333%;
+}
+
+/* line 231, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset3 {
+  margin-left: 25%;
+}
+
+/* line 234, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset2 {
+  margin-left: 16.666666666666664%;
+}
+
+/* line 237, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset1 {
+  margin-left: 8.333333333333332%;
+}
+
+/* line 240, Fabric.Responsive.Utilities.Output.scss */
+.ms-u-smOffset0 {
+  margin-left: 0;
+}
+
+@media (min-width: 480px) {
+  /* line 246, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md12 {
+    width: 100%;
+  }
+
+  /* line 249, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 252, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 255, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md9 {
+    width: 75%;
+  }
+
+  /* line 258, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 261, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 264, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md6 {
+    width: 50%;
+  }
+
+  /* line 267, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 270, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 273, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md3 {
+    width: 25%;
+  }
+
+  /* line 276, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 279, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-md1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 282, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull12 {
+    right: 100%;
+  }
+
+  /* line 285, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 288, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 291, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull9 {
+    right: 75%;
+  }
+
+  /* line 294, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 297, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 300, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull6 {
+    right: 50%;
+  }
+
+  /* line 303, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 306, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 309, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull3 {
+    right: 25%;
+  }
+
+  /* line 312, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 315, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 318, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPull0 {
+    right: auto;
+  }
+
+  /* line 321, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush12 {
+    left: 100%;
+  }
+
+  /* line 324, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 327, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 330, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush9 {
+    left: 75%;
+  }
+
+  /* line 333, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 336, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 339, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush6 {
+    left: 50%;
+  }
+
+  /* line 342, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 345, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 348, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush3 {
+    left: 25%;
+  }
+
+  /* line 351, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 354, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 357, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdPush0 {
+    left: auto;
+  }
+
+  /* line 362, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 365, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 368, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 371, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 374, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 377, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 380, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 383, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 386, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 389, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 392, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 395, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-mdOffset0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 640px) {
+  /* line 402, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg12 {
+    width: 100%;
+  }
+
+  /* line 405, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 408, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 411, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg9 {
+    width: 75%;
+  }
+
+  /* line 414, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 417, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 420, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg6 {
+    width: 50%;
+  }
+
+  /* line 423, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 426, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 429, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg3 {
+    width: 25%;
+  }
+
+  /* line 432, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 435, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lg1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 438, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull12 {
+    right: 100%;
+  }
+
+  /* line 441, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 444, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 447, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull9 {
+    right: 75%;
+  }
+
+  /* line 450, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 453, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 456, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull6 {
+    right: 50%;
+  }
+
+  /* line 459, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 462, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 465, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull3 {
+    right: 25%;
+  }
+
+  /* line 468, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 471, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 474, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPull0 {
+    right: auto;
+  }
+
+  /* line 477, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush12 {
+    left: 100%;
+  }
+
+  /* line 480, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 483, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 486, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush9 {
+    left: 75%;
+  }
+
+  /* line 489, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 492, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 495, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush6 {
+    left: 50%;
+  }
+
+  /* line 498, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 501, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 504, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush3 {
+    left: 25%;
+  }
+
+  /* line 507, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 510, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 513, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgPush0 {
+    left: auto;
+  }
+
+  /* line 518, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 521, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 524, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 527, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 530, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 533, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 536, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 539, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 542, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 545, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 548, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 551, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-lgOffset0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 558, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl12 {
+    width: 100%;
+  }
+
+  /* line 561, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 564, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 567, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl9 {
+    width: 75%;
+  }
+
+  /* line 570, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 573, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 576, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl6 {
+    width: 50%;
+  }
+
+  /* line 579, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 582, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 585, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl3 {
+    width: 25%;
+  }
+
+  /* line 588, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 591, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xl1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 594, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull12 {
+    right: 100%;
+  }
+
+  /* line 597, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 600, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 603, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull9 {
+    right: 75%;
+  }
+
+  /* line 606, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 609, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 612, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull6 {
+    right: 50%;
+  }
+
+  /* line 615, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 618, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 621, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull3 {
+    right: 25%;
+  }
+
+  /* line 624, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 627, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 630, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPull0 {
+    right: auto;
+  }
+
+  /* line 633, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush12 {
+    left: 100%;
+  }
+
+  /* line 636, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 639, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 642, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush9 {
+    left: 75%;
+  }
+
+  /* line 645, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 648, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 651, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush6 {
+    left: 50%;
+  }
+
+  /* line 654, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 657, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 660, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush3 {
+    left: 25%;
+  }
+
+  /* line 663, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 666, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 669, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlPush0 {
+    left: auto;
+  }
+
+  /* line 674, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 677, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 680, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 683, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 686, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 689, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 692, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 695, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 698, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 701, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 704, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 707, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xlOffset0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1366px) {
+  /* line 714, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl12 {
+    width: 100%;
+  }
+
+  /* line 717, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 720, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 723, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl9 {
+    width: 75%;
+  }
+
+  /* line 726, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 729, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 732, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl6 {
+    width: 50%;
+  }
+
+  /* line 735, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 738, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 741, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl3 {
+    width: 25%;
+  }
+
+  /* line 744, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 747, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxl1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 750, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull12 {
+    right: 100%;
+  }
+
+  /* line 753, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 756, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 759, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull9 {
+    right: 75%;
+  }
+
+  /* line 762, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 765, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 768, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull6 {
+    right: 50%;
+  }
+
+  /* line 771, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 774, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 777, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull3 {
+    right: 25%;
+  }
+
+  /* line 780, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 783, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 786, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPull0 {
+    right: auto;
+  }
+
+  /* line 789, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush12 {
+    left: 100%;
+  }
+
+  /* line 792, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 795, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 798, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush9 {
+    left: 75%;
+  }
+
+  /* line 801, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 804, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 807, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush6 {
+    left: 50%;
+  }
+
+  /* line 810, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 813, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 816, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush3 {
+    left: 25%;
+  }
+
+  /* line 819, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 822, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 825, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlPush0 {
+    left: auto;
+  }
+
+  /* line 830, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 833, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 836, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 839, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 842, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 845, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 848, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 851, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 854, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 857, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 860, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 863, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxlOffset0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1920px) {
+  /* line 870, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl12 {
+    width: 100%;
+  }
+
+  /* line 873, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl11 {
+    width: 91.66666666666666%;
+  }
+
+  /* line 876, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl10 {
+    width: 83.33333333333334%;
+  }
+
+  /* line 879, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl9 {
+    width: 75%;
+  }
+
+  /* line 882, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl8 {
+    width: 66.66666666666666%;
+  }
+
+  /* line 885, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl7 {
+    width: 58.333333333333336%;
+  }
+
+  /* line 888, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl6 {
+    width: 50%;
+  }
+
+  /* line 891, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl5 {
+    width: 41.66666666666667%;
+  }
+
+  /* line 894, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl4 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 897, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl3 {
+    width: 25%;
+  }
+
+  /* line 900, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl2 {
+    width: 16.666666666666664%;
+  }
+
+  /* line 903, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxl1 {
+    width: 8.333333333333332%;
+  }
+
+  /* line 906, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull12 {
+    right: 100%;
+  }
+
+  /* line 909, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull11 {
+    right: 91.66666666666666%;
+  }
+
+  /* line 912, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull10 {
+    right: 83.33333333333334%;
+  }
+
+  /* line 915, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull9 {
+    right: 75%;
+  }
+
+  /* line 918, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull8 {
+    right: 66.66666666666666%;
+  }
+
+  /* line 921, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull7 {
+    right: 58.333333333333336%;
+  }
+
+  /* line 924, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull6 {
+    right: 50%;
+  }
+
+  /* line 927, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull5 {
+    right: 41.66666666666667%;
+  }
+
+  /* line 930, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull4 {
+    right: 33.33333333333333%;
+  }
+
+  /* line 933, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull3 {
+    right: 25%;
+  }
+
+  /* line 936, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull2 {
+    right: 16.666666666666664%;
+  }
+
+  /* line 939, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull1 {
+    right: 8.333333333333332%;
+  }
+
+  /* line 942, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPull0 {
+    right: auto;
+  }
+
+  /* line 945, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush12 {
+    left: 100%;
+  }
+
+  /* line 948, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush11 {
+    left: 91.66666666666666%;
+  }
+
+  /* line 951, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush10 {
+    left: 83.33333333333334%;
+  }
+
+  /* line 954, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush9 {
+    left: 75%;
+  }
+
+  /* line 957, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush8 {
+    left: 66.66666666666666%;
+  }
+
+  /* line 960, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush7 {
+    left: 58.333333333333336%;
+  }
+
+  /* line 963, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush6 {
+    left: 50%;
+  }
+
+  /* line 966, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush5 {
+    left: 41.66666666666667%;
+  }
+
+  /* line 969, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush4 {
+    left: 33.33333333333333%;
+  }
+
+  /* line 972, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush3 {
+    left: 25%;
+  }
+
+  /* line 975, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush2 {
+    left: 16.666666666666664%;
+  }
+
+  /* line 978, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush1 {
+    left: 8.333333333333332%;
+  }
+
+  /* line 981, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlPush0 {
+    left: auto;
+  }
+
+  /* line 986, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  /* line 989, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  /* line 992, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset9 {
+    margin-left: 75%;
+  }
+
+  /* line 995, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  /* line 998, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  /* line 1001, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset6 {
+    margin-left: 50%;
+  }
+
+  /* line 1004, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  /* line 1007, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  /* line 1010, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset3 {
+    margin-left: 25%;
+  }
+
+  /* line 1013, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  /* line 1016, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  /* line 1019, Fabric.Responsive.Utilities.Output.scss */
+  .ms-u-xxxlOffset0 {
+    margin-left: 0;
+  }
+}
+/* line 12, Fabric.Grid.Output.scss */
+.ms-Grid {
+  box-sizing: border-box;
+  *zoom: 1;
+  padding: 0 8px;
+}
+/* line 19, _Fabric.Utilities.scss */
+.ms-Grid:before, .ms-Grid:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 25, _Fabric.Utilities.scss */
+.ms-Grid:after {
+  clear: both;
+}
+
+/* line 18, Fabric.Grid.Output.scss */
+.ms-Grid-row {
+  margin: 0 -8px;
+  box-sizing: border-box;
+  *zoom: 1;
+}
+/* line 19, _Fabric.Utilities.scss */
+.ms-Grid-row:before, .ms-Grid-row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 25, _Fabric.Utilities.scss */
+.ms-Grid-row:after {
+  clear: both;
+}
+
+/* line 24, Fabric.Grid.Output.scss */
+.ms-Grid-col {
+  position: relative;
+  min-height: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  float: left;
+}
+
+/* line 30, Fabric.Grid.Output.scss */
+.ms-Grid-col .ms-Grid {
+  padding: 0;
+}
+
+/* line 9, Button.scss */
+.ms-Button {
+  color: #333333;
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  cursor: pointer;
+  display: inline-block;
+  height: 32px;
+  min-width: 80px;
+  padding: 4px 20px 6px;
+}
+/* line 20, Button.scss */
+.ms-Button:hover {
+  background-color: #eaeaea;
+  border-color: #eaeaea;
+  outline: 1px solid transparent;
+}
+/* line 25, Button.scss */
+.ms-Button:hover .ms-Button-label {
+  color: #000000;
+}
+/* line 30, Button.scss */
+.ms-Button:focus {
+  background-color: #eaeaea;
+  border-color: #0078d7;
+  outline: 1px solid transparent;
+}
+/* line 35, Button.scss */
+.ms-Button:focus .ms-Button-label {
+  color: #000000;
+}
+/* line 40, Button.scss */
+.ms-Button:active {
+  background-color: #0078d7;
+  border-color: #0078d7;
+}
+/* line 44, Button.scss */
+.ms-Button:active .ms-Button-label {
+  color: #ffffff;
+}
+/* line 49, Button.scss */
+.ms-Button:disabled, .ms-Button.is-disabled {
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+  cursor: default;
+}
+/* line 55, Button.scss */
+.ms-Button:disabled .ms-Button-label, .ms-Button.is-disabled .ms-Button-label {
+  color: #a6a6a6;
+}
+/* line 59, Button.scss */
+.ms-Button:disabled:hover, .ms-Button:disabled:focus, .ms-Button.is-disabled:hover, .ms-Button.is-disabled:focus {
+  outline: 0;
+}
+
+/* line 67, Button.scss */
+.ms-Button + .ms-Button {
+  margin-left: 6px;
+}
+
+/* line 71, Button.scss */
+.ms-Button-label {
+  color: #333333;
+  font-family: "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* line 77, Button.scss */
+.ms-Button-icon,
+.ms-Button-description {
+  display: none;
+}
+
+/* line 85, Button.scss */
+.ms-Button.ms-Button--primary {
+  background-color: #0078d7;
+  border-color: #0078d7;
+}
+/* line 89, Button.scss */
+.ms-Button.ms-Button--primary .ms-Button-label {
+  color: #ffffff;
+}
+/* line 93, Button.scss */
+.ms-Button.ms-Button--primary:hover {
+  background-color: #005a9e;
+  border-color: #005a9e;
+}
+/* line 98, Button.scss */
+.ms-Button.ms-Button--primary:focus {
+  background-color: #005a9e;
+  border-color: #004578;
+}
+/* line 103, Button.scss */
+.ms-Button.ms-Button--primary:active {
+  background-color: #0078d7;
+  border-color: #0078d7;
+}
+/* line 108, Button.scss */
+.ms-Button.ms-Button--primary:disabled, .ms-Button.ms-Button--primary.is-disabled {
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+}
+/* line 113, Button.scss */
+.ms-Button.ms-Button--primary:disabled .ms-Button-label, .ms-Button.ms-Button--primary.is-disabled .ms-Button-label {
+  color: #a6a6a6;
+}
+
+/* line 122, Button.scss */
+.ms-Button.ms-Button--hero {
+  background-color: transparent;
+  border: none;
+  vertical-align: top;
+  line-height: normal;
+}
+/* line 128, Button.scss */
+.ms-Button.ms-Button--hero .ms-Button-icon {
+  color: #0078d7;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  top: -8px;
+  text-align: center;
+}
+/* line 136, Button.scss */
+.ms-Button.ms-Button--hero .ms-Button-icon .ms-Icon {
+  border-radius: 18px;
+  border: 1px solid #0078d7;
+  height: 18px;
+  line-height: 18px;
+  width: 18px;
+  font-size: 12px;
+  margin: 0;
+}
+/* line 147, Button.scss */
+.ms-Button.ms-Button--hero .ms-Button-label {
+  color: #0078d7;
+  font-family: "Segoe UI Light WestEuropean", "Segoe UI Light", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 21px;
+  position: relative;
+  top: -5px;
+  text-decoration: none;
+}
+/* line 159, Button.scss */
+.ms-Button.ms-Button--hero:hover .ms-Button-icon .ms-Icon, .ms-Button.ms-Button--hero:focus .ms-Button-icon .ms-Icon {
+  color: #005a9e;
+}
+/* line 164, Button.scss */
+.ms-Button.ms-Button--hero:hover .ms-Button-label, .ms-Button.ms-Button--hero:focus .ms-Button-label {
+  color: #004578;
+}
+/* line 171, Button.scss */
+.ms-Button.ms-Button--hero:active .ms-Button-icon .ms-Icon {
+  color: #0078d7;
+}
+/* line 176, Button.scss */
+.ms-Button.ms-Button--hero:active .ms-Button-label {
+  color: #0078d7;
+}
+/* line 184, Button.scss */
+.ms-Button.ms-Button--hero:disabled .ms-Button-icon .ms-Icon, .ms-Button.ms-Button--hero.is-disabled .ms-Button-icon .ms-Icon {
+  color: #c8c8c8;
+}
+/* line 189, Button.scss */
+.ms-Button.ms-Button--hero:disabled .ms-Button-label, .ms-Button.ms-Button--hero.is-disabled .ms-Button-label {
+  color: #a6a6a6;
+}
+
+/* line 198, Button.scss */
+.ms-Button.ms-Button--compound {
+  height: auto;
+  min-height: 72px;
+  max-width: 280px;
+  padding: 20px;
+}
+/* line 204, Button.scss */
+.ms-Button.ms-Button--compound .ms-Button-label {
+  display: block;
+  font-family: "Segoe UI Semibold WestEuropean", "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, sans-serif;
+  position: relative;
+  text-align: left;
+  margin-top: -5px;
+}
+/* line 212, Button.scss */
+.ms-Button.ms-Button--compound .ms-Button-description {
+  color: #666666;
+  display: block;
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 12px;
+  position: relative;
+  text-align: left;
+  top: 3px;
+}
+/* line 223, Button.scss */
+.ms-Button.ms-Button--compound:hover .ms-Button-description {
+  color: #212121;
+}
+/* line 228, Button.scss */
+.ms-Button.ms-Button--compound:focus {
+  border-color: #0078d7;
+  background-color: #f4f4f4;
+}
+/* line 232, Button.scss */
+.ms-Button.ms-Button--compound:focus .ms-Button-label {
+  color: #333333;
+}
+/* line 236, Button.scss */
+.ms-Button.ms-Button--compound:focus .ms-Button-description {
+  color: #666666;
+}
+/* line 241, Button.scss */
+.ms-Button.ms-Button--compound:active {
+  background-color: #0078d7;
+}
+/* line 244, Button.scss */
+.ms-Button.ms-Button--compound:active .ms-Button-description,
+.ms-Button.ms-Button--compound:active .ms-Button-label {
+  color: #ffffff;
+}
+/* line 252, Button.scss */
+.ms-Button.ms-Button--compound:disabled .ms-Button-label,
+.ms-Button.ms-Button--compound:disabled .ms-Button-description, .ms-Button.ms-Button--compound.is-disabled .ms-Button-label,
+.ms-Button.ms-Button--compound.is-disabled .ms-Button-description {
+  color: #a6a6a6;
+}
+/* line 257, Button.scss */
+.ms-Button.ms-Button--compound:disabled:focus, .ms-Button.ms-Button--compound:disabled:active, .ms-Button.ms-Button--compound.is-disabled:focus, .ms-Button.ms-Button--compound.is-disabled:active {
+  border-color: #f4f4f4;
+  background-color: #f4f4f4;
+}
+/* line 262, Button.scss */
+.ms-Button.ms-Button--compound:disabled:focus .ms-Button-label,
+.ms-Button.ms-Button--compound:disabled:focus .ms-Button-description, .ms-Button.ms-Button--compound:disabled:active .ms-Button-label,
+.ms-Button.ms-Button--compound:disabled:active .ms-Button-description, .ms-Button.ms-Button--compound.is-disabled:focus .ms-Button-label,
+.ms-Button.ms-Button--compound.is-disabled:focus .ms-Button-description, .ms-Button.ms-Button--compound.is-disabled:active .ms-Button-label,
+.ms-Button.ms-Button--compound.is-disabled:active .ms-Button-description {
+  color: #a6a6a6;
+}
+
+/* line 273, Button.scss */
+.ms-Button.ms-Button--command {
+  background-color: transparent;
+  border: none;
+  height: 32px;
+  line-height: 32px;
+  min-width: 0;
+  padding: 0 8px;
+  text-align: left;
+  font-size: 14px;
+}
+/* line 283, Button.scss */
+.ms-Button.ms-Button--command .ms-Button-icon {
+  color: #666666;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+}
+/* line 290, Button.scss */
+.ms-Button.ms-Button--command .ms-Button-label {
+  font-family: "Segoe UI Regular WestEuropean", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* line 296, Button.scss */
+.ms-Button.ms-Button--command:hover .ms-Button-icon, .ms-Button.ms-Button--command:focus .ms-Button-icon {
+  color: #212121;
+}
+/* line 300, Button.scss */
+.ms-Button.ms-Button--command:hover .ms-Button-label, .ms-Button.ms-Button--command:focus .ms-Button-label {
+  color: #000000;
+}
+/* line 306, Button.scss */
+.ms-Button.ms-Button--command:active .ms-Button-icon,
+.ms-Button.ms-Button--command:active .ms-Button-label {
+  color: #0078d7;
+}
+/* line 314, Button.scss */
+.ms-Button.ms-Button--command:disabled .ms-Button-icon, .ms-Button.ms-Button--command.is-disabled .ms-Button-icon {
+  color: #c8c8c8;
+}
+/* line 318, Button.scss */
+.ms-Button.ms-Button--command:disabled .ms-Button-label, .ms-Button.ms-Button--command.is-disabled .ms-Button-label {
+  color: #a6a6a6;
+}
+
+/* line 325, Button.scss */
+.ms-Button.ms-Button--command + .ms-Button.ms-Button--command {
+  margin-left: 14px;
+}
+
+/*# sourceMappingURL=Fabric.css.map */

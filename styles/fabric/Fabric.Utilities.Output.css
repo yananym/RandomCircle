@@ -1,0 +1,29 @@
+/* line 11, Fabric.Utilities.Output.scss */
+.ms-u-borderBox, .ms-u-borderBox:before, .ms-u-borderBox:after {
+  box-sizing: border-box;
+}
+
+/* line 16, Fabric.Utilities.Output.scss */
+.ms-u-clearfix {
+  *zoom: 1;
+}
+/* line 19, _Fabric.Utilities.scss */
+.ms-u-clearfix:before, .ms-u-clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 25, _Fabric.Utilities.scss */
+.ms-u-clearfix:after {
+  clear: both;
+}
+
+/* line 21, Fabric.Utilities.Output.scss */
+.ms-u-normalize {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=Fabric.Utilities.Output.css.map */

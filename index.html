@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Circle animation page prototype</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/fabric/Fabric.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div class="ms-Grid"> 
+	<div class="ms-Grid-row full-Page-row">
+	    <div class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg2 ms-u-slideRightIn40 aside-col ms-bgColor-blue">
+	    	<h2 class="ms-font-xl ms-fontColor-white">Circle controls</h2>
+	    	<h3 class="ms-font-l ms-fontColor-white">Size range</h3>
+	    	<input id="circleSize" type="range">
+	    	<h3 class="ms-font-l ms-fontColor-white">Number of circles</h3>
+	    	<input id="circleNumber" type="range">
+	    </div>
+	    <div class="ms-Grid-col ms-u-sm6 ms-u-md8 ms-u-lg10 main-col">
+    		<h1 class="ms-font-su ms-fontColor-themeDark">Circle animation page</h1>
+	    	<div class="stage-row" id="stage">
+	    		<button id="generate" class="ms-Button ms-Button--primary"> 
+		    		<span class="ms-Button-icon">
+		    			<i class="ms-Icon ms-Icon--plus"></i>
+		    		</span> 
+		    		<span class="ms-Button-label">Generate Circles</span> 
+		    		<span class="ms-Button-description">Description of the action this button takes</span> 
+	    		</button>
+	    	</div>
+	    </div>
+	 </div>
+	</div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

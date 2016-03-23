@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;AAaA,UASC;EARC,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,iFAAsD;EAC3D,GAAG,EAAE,4aAAwF;EAI7F,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM",
+"sources": ["Fabric.Icons.Font.Output.scss"],
+"names": [],
+"file": "Fabric.Icons.Font.Output.css"
+}
