@@ -3037,20 +3037,24 @@ body {
   background-size: cover;
 }
 /* line 92, style.scss */
+.stage-row .circle .name {
+  pointer-events: none;
+}
+/* line 96, style.scss */
 .stage-row .circle span {
   display: none;
 }
-/* line 96, style.scss */
+/* line 100, style.scss */
 .stage-row .circle .removeCircle {
   display: none;
 }
-/* line 100, style.scss */
+/* line 104, style.scss */
 .stage-row .circle:hover {
   -webkit-transform: scale(1.1, 1.1);
       -ms-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
 }
-/* line 104, style.scss */
+/* line 108, style.scss */
 .stage-row .circle.zoom {
   z-index: 1;
   width: 60vh !important;
@@ -3064,11 +3068,11 @@ body {
       -ms-transform: rotate(0deg) !important;
           transform: rotate(0deg) !important;
 }
-/* line 115, style.scss */
+/* line 119, style.scss */
 .stage-row .circle.zoom span {
   display: block;
 }
-/* line 119, style.scss */
+/* line 123, style.scss */
 .stage-row .circle.zoom .removeCircle {
   background: #E81123;
   display: block;
@@ -3083,17 +3087,17 @@ body {
   display: block;
   color: #fff;
 }
-/* line 132, style.scss */
+/* line 136, style.scss */
 .stage-row .circle.zoom .removeCircle * {
   pointer-events: none;
 }
-/* line 137, style.scss */
+/* line 141, style.scss */
 .stage-row .circle.zoom:hover {
   -webkit-transform: scale(1, 1);
       -ms-transform: scale(1, 1);
           transform: scale(1, 1);
 }
-/* line 141, style.scss */
+/* line 145, style.scss */
 .stage-row .circle.nonRandom:not(.removed) {
   position: relative !important;
   display: block !important;
@@ -3108,7 +3112,7 @@ body {
   float: left;
 }
 
-/* line 155, style.scss */
+/* line 159, style.scss */
 input[type="range"] {
   -webkit-appearance: none;
   background: transparent;

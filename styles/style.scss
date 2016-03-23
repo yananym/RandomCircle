@@ -89,6 +89,10 @@ body {
     background-image: url(../images/sphere.svg);
     background-size: cover;
 
+    .name {
+      pointer-events: none;
+    }
+
     span {
       display:none;
     }
