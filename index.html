@@ -21,11 +21,9 @@
 	<div class="ms-Grid"> 
 	<div class="ms-Grid-row full-Page-row">
 	    <div class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg2 ms-u-slideRightIn40 aside-col ms-bgColor-blue">
-	    	<h2 class="ms-font-xl ms-fontColor-white">Circle controls</h2>
-	    	<h3 id="circleSizeTitle" class="ms-font-l ms-fontColor-white">Size range <span class="rangeValue"></span></h3>
-	    	<input id="circleSize" max="200" type="range">
-	    	<h3 id="circleNumberTitle" class="ms-font-l ms-fontColor-white">Circle count <span class="rangeValue"></span></h3>
-	    	<input id="circleNumber" max="200" type="range">
+	    	<h2 class="ms-font-xl ms-fontColor-white">Galaxy controls</h2>
+	    	<h3 id="circleSizeTitle" class="ms-font-l ms-fontColor-white">Rotate <span class="rangeValue"></span></h3>
+	    	<input id="circleSize" max="360" value="0" type="range">
 	    	<div class="ms-Toggle">
 		    	<span class="ms-Toggle-description">Random style</span> 
 		    	<input type="checkbox" id="toggleRandom" class="ms-Toggle-input" checked> 
@@ -34,18 +32,18 @@
 			    	<span class="ms-Label ms-Label--on">On</span> 
 		    	</label>
 	    	</div>
-	    	<div id="planetList" class="planetList">
-
-	    	</div>
+	    	<h3 id="circleSizeTitle" class="ms-font-l ms-fontColor-white">Planets gone forever:</h3>
+	    	<ul id="planetList" class="planetList ms-fontWeight-light">None</ul>
+	    	<span class="ms-fontWeight-light sentiment">We will never forget them...</span>
 	    </div>
 	    <div class="ms-Grid-col ms-u-sm6 ms-u-md8 ms-u-lg10 main-col">
-    		<h1 class="ms-font-su ms-fontColor-themeDark">Circle animation page <span><i class="ms-Icon ms-Icon--refresh"></i></span></h1>
+    		<h1 class="ms-font-su ms-fontColor-themeDark">Star Track galaxy</h1>
 	    	<div class="stage-row" id="stage">
 	    		<button id="generate" class="ms-Button ms-Button--primary"> 
 		    		<span class="ms-Button-icon">
 		    			<i class="ms-Icon ms-Icon--plus"></i>
 		    		</span> 
-		    		<span class="ms-Button-label">Generate Circles</span> 
+		    		<span class="ms-Button-label">Show planets</span> 
 		    		<span class="ms-Button-description">Description of the action this button takes</span> 
 	    		</button>
 	    	</div>
